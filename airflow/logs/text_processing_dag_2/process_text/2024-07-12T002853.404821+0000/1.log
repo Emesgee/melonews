@@ -1,0 +1,186 @@
+[2024-07-12 00:28:56,649] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_2.process_text manual__2024-07-12T00:28:53.404821+00:00 [queued]>
+[2024-07-12 00:28:56,664] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_2.process_text manual__2024-07-12T00:28:53.404821+00:00 [queued]>
+[2024-07-12 00:28:56,664] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-12 00:28:56,664] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-07-12 00:28:56,664] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-12 00:28:56,683] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-07-12 00:28:53.404821+00:00
+[2024-07-12 00:28:56,686] {standard_task_runner.py:52} INFO - Started process 4870 to run task
+[2024-07-12 00:28:56,699] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_2', 'process_text', 'manual__2024-07-12T00:28:53.404821+00:00', '--job-id', '3221', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_2.py', '--cfg-path', '/tmp/tmpzguh7kc2', '--error-file', '/tmp/tmp9we7543u']
+[2024-07-12 00:28:56,702] {standard_task_runner.py:77} INFO - Job 3221: Subtask process_text
+[2024-07-12 00:28:56,803] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_2.process_text manual__2024-07-12T00:28:53.404821+00:00 [running]> on host cf249bbdc0d0
+[2024-07-12 00:28:56,897] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_2
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-07-12T00:28:53.404821+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-07-12T00:28:53.404821+00:00
+[2024-07-12 00:28:58,498] {logging_mixin.py:109} INFO - Index(['date', 'time', 'messages', 'video_links', 'video_durations',
+       'cleaned_text_entities', 'title', 'matched_city', 'combined_text',
+       'summarized', 'matched_city2', 'city_result', 'latitude', 'longitude'],
+      dtype='object')
+[2024-07-12 00:29:06,841] {local_task_job.py:212} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-07-12 00:29:06,844] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 4870. PIDs of all processes in the group: [4870]
+[2024-07-12 00:29:06,844] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 4870
+[2024-07-12 00:29:06,845] {taskinstance.py:1413} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-07-12 00:29:06,860] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 123, in process_text
+    keywords = extract_keywords(i)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 106, in extract_keywords
+    doc = nlp(text)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/language.py", line 1047, in __call__
+    error_handler(name, proc, [doc], e)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 1724, in raise_error
+    raise e
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/language.py", line 1042, in __call__
+    doc = proc(doc, **component_cfg.get(name, {}))  # type: ignore[call-arg]
+  File "spacy/pipeline/trainable_pipe.pyx", line 56, in spacy.pipeline.trainable_pipe.TrainablePipe.__call__
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 1724, in raise_error
+    raise e
+  File "spacy/pipeline/trainable_pipe.pyx", line 52, in spacy.pipeline.trainable_pipe.TrainablePipe.__call__
+  File "spacy/pipeline/transition_parser.pyx", line 263, in spacy.pipeline.transition_parser.Parser.predict
+  File "spacy/pipeline/transition_parser.pyx", line 284, in spacy.pipeline.transition_parser.Parser.greedy_parse
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 334, in predict
+    return self._func(self, X, is_train=False)[0]
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/ml/tb_framework.py", line 39, in forward
+    has_upper=model.attrs["has_upper"],
+  File "spacy/ml/parser_model.pyx", line 249, in spacy.ml.parser_model.ParserStepModel.__init__
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/with_array.py", line 36, in forward
+    return cast(Tuple[SeqT, Callable], _ragged_forward(model, Xseq, is_train))
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/with_array.py", line 91, in _ragged_forward
+    Y, get_dX = layer(Xr.dataXd, is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/layernorm.py", line 24, in forward
+    N, mu, var = _get_moments(model.ops, X)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/layernorm.py", line 74, in _get_moments
+    mu: Floats2d = X.mean(axis=1, keepdims=True)
+  File "/home/airflow/.local/lib/python3.6/site-packages/numpy/core/_methods.py", line 144, in _mean
+    arr = asanyarray(a)
+  File "/home/airflow/.local/lib/python3.6/site-packages/numpy/core/_asarray.py", line 136, in asanyarray
+    return array(a, dtype, copy=False, order=order, subok=True)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1415, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-07-12 00:29:06,869] {taskinstance.py:1282} INFO - Marking task as FAILED. dag_id=text_processing_dag_2, task_id=process_text, execution_date=20240712T002853, start_date=20240712T002856, end_date=20240712T002906
+[2024-07-12 00:29:06,890] {standard_task_runner.py:92} ERROR - Failed to execute job 3221 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 123, in process_text
+    keywords = extract_keywords(i)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 106, in extract_keywords
+    doc = nlp(text)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/language.py", line 1047, in __call__
+    error_handler(name, proc, [doc], e)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 1724, in raise_error
+    raise e
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/language.py", line 1042, in __call__
+    doc = proc(doc, **component_cfg.get(name, {}))  # type: ignore[call-arg]
+  File "spacy/pipeline/trainable_pipe.pyx", line 56, in spacy.pipeline.trainable_pipe.TrainablePipe.__call__
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 1724, in raise_error
+    raise e
+  File "spacy/pipeline/trainable_pipe.pyx", line 52, in spacy.pipeline.trainable_pipe.TrainablePipe.__call__
+  File "spacy/pipeline/transition_parser.pyx", line 263, in spacy.pipeline.transition_parser.Parser.predict
+  File "spacy/pipeline/transition_parser.pyx", line 284, in spacy.pipeline.transition_parser.Parser.greedy_parse
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 334, in predict
+    return self._func(self, X, is_train=False)[0]
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/ml/tb_framework.py", line 39, in forward
+    has_upper=model.attrs["has_upper"],
+  File "spacy/ml/parser_model.pyx", line 249, in spacy.ml.parser_model.ParserStepModel.__init__
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/with_array.py", line 36, in forward
+    return cast(Tuple[SeqT, Callable], _ragged_forward(model, Xseq, is_train))
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/with_array.py", line 91, in _ragged_forward
+    Y, get_dX = layer(Xr.dataXd, is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/layernorm.py", line 24, in forward
+    N, mu, var = _get_moments(model.ops, X)
+  File "/home/airflow/.local/lib/python3.6/site-packages/thinc/layers/layernorm.py", line 74, in _get_moments
+    mu: Floats2d = X.mean(axis=1, keepdims=True)
+  File "/home/airflow/.local/lib/python3.6/site-packages/numpy/core/_methods.py", line 144, in _mean
+    arr = asanyarray(a)
+  File "/home/airflow/.local/lib/python3.6/site-packages/numpy/core/_asarray.py", line 136, in asanyarray
+    return array(a, dtype, copy=False, order=order, subok=True)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1415, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-07-12 00:29:06,938] {process_utils.py:70} INFO - Process psutil.Process(pid=4870, status='terminated', exitcode=1, started='00:28:56') (4870) terminated with exit code 1

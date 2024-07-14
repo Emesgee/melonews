@@ -1,0 +1,24 @@
+[2024-06-26 15:53:56,261] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: webscraping_dag.scrape_and_produce scheduled__2023-02-15T15:00:00+00:00 [queued]>
+[2024-06-26 15:53:56,276] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: webscraping_dag.scrape_and_produce scheduled__2023-02-15T15:00:00+00:00 [queued]>
+[2024-06-26 15:53:56,279] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-26 15:53:56,279] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-26 15:53:56,279] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-26 15:53:56,306] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): scrape_and_produce> on 2023-02-15 15:00:00+00:00
+[2024-06-26 15:53:56,309] {standard_task_runner.py:52} INFO - Started process 4139 to run task
+[2024-06-26 15:53:56,315] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'webscraping_dag', 'scrape_and_produce', 'scheduled__2023-02-15T15:00:00+00:00', '--job-id', '1291', '--raw', '--subdir', 'DAGS_FOLDER/webscraping_dag.py', '--cfg-path', '/tmp/tmpcivcaaf6', '--error-file', '/tmp/tmpubh_3umu']
+[2024-06-26 15:53:56,319] {standard_task_runner.py:77} INFO - Job 1291: Subtask scrape_and_produce
+[2024-06-26 15:53:56,394] {logging_mixin.py:109} INFO - Running <TaskInstance: webscraping_dag.scrape_and_produce scheduled__2023-02-15T15:00:00+00:00 [running]> on host 1f86a07ac7e4
+[2024-06-26 15:53:56,492] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=webscraping_dag
+AIRFLOW_CTX_TASK_ID=scrape_and_produce
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-15T15:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-15T15:00:00+00:00
+[2024-06-26 15:53:56,498] {logging_mixin.py:109} INFO - Error initializing WebDriver: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+[2024-06-26 15:53:56,498] {logging_mixin.py:109} INFO - 
+[2024-06-26 15:53:56,499] {python.py:175} INFO - Done. Returned value was: None
+[2024-06-26 15:53:56,522] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=webscraping_dag, task_id=scrape_and_produce, execution_date=20230215T150000, start_date=20240626T155356, end_date=20240626T155356
+[2024-06-26 15:53:56,575] {local_task_job.py:154} INFO - Task exited with return code 0
+[2024-06-26 15:53:56,656] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

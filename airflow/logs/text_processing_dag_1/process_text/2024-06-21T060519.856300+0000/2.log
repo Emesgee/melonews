@@ -1,0 +1,65 @@
+[2024-06-21 06:10:26,722] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text manual__2024-06-21T06:05:19.856300+00:00 [queued]>
+[2024-06-21 06:10:26,731] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text manual__2024-06-21T06:05:19.856300+00:00 [queued]>
+[2024-06-21 06:10:26,731] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 06:10:26,731] {taskinstance.py:1244} INFO - Starting attempt 2 of 2
+[2024-06-21 06:10:26,731] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 06:10:26,741] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-21 06:05:19.856300+00:00
+[2024-06-21 06:10:26,745] {standard_task_runner.py:52} INFO - Started process 464 to run task
+[2024-06-21 06:10:26,749] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'manual__2024-06-21T06:05:19.856300+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpy5e3tlt2', '--error-file', '/tmp/tmp8io47rl4']
+[2024-06-21 06:10:26,752] {standard_task_runner.py:77} INFO - Job 78: Subtask process_text
+[2024-06-21 06:10:26,808] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text manual__2024-06-21T06:05:19.856300+00:00 [running]> on host 754d803e7b79
+[2024-06-21 06:10:26,867] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-21T06:05:19.856300+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-06-21T06:05:19.856300+00:00
+[2024-06-21 06:10:28,701] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 79, in process_text
+    if place_list.index(ent.text.capitalize()) == 0:
+ValueError: 'Gaza' is not in list
+[2024-06-21 06:10:28,717] {taskinstance.py:1282} INFO - Marking task as FAILED. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240621T060519, start_date=20240621T061026, end_date=20240621T061028
+[2024-06-21 06:10:28,730] {standard_task_runner.py:92} ERROR - Failed to execute job 78 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 79, in process_text
+    if place_list.index(ent.text.capitalize()) == 0:
+ValueError: 'Gaza' is not in list
+[2024-06-21 06:10:28,770] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-21 06:10:28,804] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,56 @@
+#!/bin/bash
+
+# Change to the directory containing your docker-compose.yml file
+cd /home/mhmdghdbn/airflow/zookeeper || { echo "Directory not found"; exit 1; }
+
+# Start Xvfb
+/usr/bin/Xvfb :99 -screen 0 1024x768x24 &
+
+# Set DISPLAY environment variable
+export DISPLAY=:99
+
+# Start Docker services and run Python scripts
+start_services() {
+    docker-compose up -d  # Start all services defined in docker-compose.yml
+    
+    # Activate the virtual environment
+    source kafka-env/bin/activate
+    
+    # Run your Python scripts
+    python kafkaProducer.py &
+    PID_PRODUCER=$!
+    wait $PID_PRODUCER
+    
+    python kafkaConsumer.py &
+    PID_CONSUMER=$!
+    wait $PID_CONSUMER
+    
+    python dataPrepare.py
+    python dataReadyMap.py
+
+
+    #rm -f output.json
+
+    # Deactivate the virtual environment
+    deactivate
+}
+
+# Stop Docker services
+stop_services() {
+    docker-compose down  # Stop and remove all services
+}
+
+# Parse command line arguments
+case "$1" in
+    start)
+        start_services
+        ;;
+    stop)
+        stop_services
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+esac
+
+exit 0

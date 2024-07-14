@@ -1,0 +1,774 @@
+[2024-07-12 00:00:30,337] {processor.py:163} INFO - Started process (PID=3026) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:00:30,339] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:00:30,339] {logging_mixin.py:109} INFO - [2024-07-12 00:00:30,339] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:00:30,397] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:00:30,406] {logging_mixin.py:109} INFO - [2024-07-12 00:00:30,406] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:00:30,426] {logging_mixin.py:109} INFO - [2024-07-12 00:00:30,426] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:00:30,437] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.103 seconds
+[2024-07-12 00:01:00,988] {processor.py:163} INFO - Started process (PID=3057) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:01:00,991] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:01:00,992] {logging_mixin.py:109} INFO - [2024-07-12 00:01:00,992] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:01:01,069] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:01:01,083] {logging_mixin.py:109} INFO - [2024-07-12 00:01:01,083] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:01:01,106] {logging_mixin.py:109} INFO - [2024-07-12 00:01:01,105] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:01:01,120] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.135 seconds
+[2024-07-12 00:01:31,668] {processor.py:163} INFO - Started process (PID=3088) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:01:31,670] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:01:31,671] {logging_mixin.py:109} INFO - [2024-07-12 00:01:31,671] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:01:31,740] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:01:31,751] {logging_mixin.py:109} INFO - [2024-07-12 00:01:31,751] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:01:31,768] {logging_mixin.py:109} INFO - [2024-07-12 00:01:31,768] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:01:31,783] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.118 seconds
+[2024-07-12 00:02:02,410] {processor.py:163} INFO - Started process (PID=3119) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:02:02,411] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:02:02,412] {logging_mixin.py:109} INFO - [2024-07-12 00:02:02,412] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:02:02,475] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:02:02,484] {logging_mixin.py:109} INFO - [2024-07-12 00:02:02,484] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:02:02,502] {logging_mixin.py:109} INFO - [2024-07-12 00:02:02,502] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:02:02,515] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.109 seconds
+[2024-07-12 00:02:32,965] {processor.py:163} INFO - Started process (PID=3150) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:02:32,966] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:02:32,967] {logging_mixin.py:109} INFO - [2024-07-12 00:02:32,967] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:02:33,032] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:02:33,044] {logging_mixin.py:109} INFO - [2024-07-12 00:02:33,044] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:02:33,063] {logging_mixin.py:109} INFO - [2024-07-12 00:02:33,063] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:02:33,075] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.114 seconds
+[2024-07-12 00:03:03,653] {processor.py:163} INFO - Started process (PID=3181) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:03:03,655] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:03:03,656] {logging_mixin.py:109} INFO - [2024-07-12 00:03:03,655] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:03:03,757] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:03:03,768] {logging_mixin.py:109} INFO - [2024-07-12 00:03:03,768] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:03:03,785] {logging_mixin.py:109} INFO - [2024-07-12 00:03:03,785] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:03:03,793] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.146 seconds
+[2024-07-12 00:03:34,336] {processor.py:163} INFO - Started process (PID=3212) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:03:34,338] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:03:34,339] {logging_mixin.py:109} INFO - [2024-07-12 00:03:34,338] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:03:34,399] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:03:34,408] {logging_mixin.py:109} INFO - [2024-07-12 00:03:34,408] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:03:34,427] {logging_mixin.py:109} INFO - [2024-07-12 00:03:34,427] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:03:34,437] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.106 seconds
+[2024-07-12 00:04:04,806] {processor.py:163} INFO - Started process (PID=3243) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:04:04,807] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:04:04,809] {logging_mixin.py:109} INFO - [2024-07-12 00:04:04,809] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:04:04,881] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:04:04,894] {logging_mixin.py:109} INFO - [2024-07-12 00:04:04,894] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:04:04,916] {logging_mixin.py:109} INFO - [2024-07-12 00:04:04,916] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:04:04,925] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.123 seconds
+[2024-07-12 00:04:35,423] {processor.py:163} INFO - Started process (PID=3274) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:04:35,426] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:04:35,427] {logging_mixin.py:109} INFO - [2024-07-12 00:04:35,427] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:04:35,492] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:04:35,503] {logging_mixin.py:109} INFO - [2024-07-12 00:04:35,503] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:04:35,522] {logging_mixin.py:109} INFO - [2024-07-12 00:04:35,522] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:04:35,532] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.113 seconds
+[2024-07-12 00:05:06,061] {processor.py:163} INFO - Started process (PID=3305) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:05:06,062] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:05:06,063] {logging_mixin.py:109} INFO - [2024-07-12 00:05:06,062] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:05:06,127] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:05:06,137] {logging_mixin.py:109} INFO - [2024-07-12 00:05:06,137] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:05:06,158] {logging_mixin.py:109} INFO - [2024-07-12 00:05:06,157] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:05:06,169] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.111 seconds
+[2024-07-12 00:05:36,731] {processor.py:163} INFO - Started process (PID=3336) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:05:36,733] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:05:36,734] {logging_mixin.py:109} INFO - [2024-07-12 00:05:36,733] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:05:36,798] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:05:36,811] {logging_mixin.py:109} INFO - [2024-07-12 00:05:36,811] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:05:36,831] {logging_mixin.py:109} INFO - [2024-07-12 00:05:36,830] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:05:36,842] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.115 seconds
+[2024-07-12 00:06:07,369] {processor.py:163} INFO - Started process (PID=3367) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:06:07,370] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:06:07,371] {logging_mixin.py:109} INFO - [2024-07-12 00:06:07,371] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:06:07,432] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:06:07,442] {logging_mixin.py:109} INFO - [2024-07-12 00:06:07,442] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:06:07,461] {logging_mixin.py:109} INFO - [2024-07-12 00:06:07,461] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:06:07,472] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.105 seconds
+[2024-07-12 00:06:38,097] {processor.py:163} INFO - Started process (PID=3398) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:06:38,100] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:06:38,101] {logging_mixin.py:109} INFO - [2024-07-12 00:06:38,101] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:06:38,170] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:06:38,182] {logging_mixin.py:109} INFO - [2024-07-12 00:06:38,182] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:06:38,201] {logging_mixin.py:109} INFO - [2024-07-12 00:06:38,201] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:06:38,213] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.122 seconds
+[2024-07-12 00:07:09,015] {processor.py:163} INFO - Started process (PID=3429) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:07:09,017] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:07:09,018] {logging_mixin.py:109} INFO - [2024-07-12 00:07:09,018] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:07:09,084] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:07:09,095] {logging_mixin.py:109} INFO - [2024-07-12 00:07:09,094] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:07:09,114] {logging_mixin.py:109} INFO - [2024-07-12 00:07:09,114] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:07:09,125] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.116 seconds
+[2024-07-12 00:07:39,674] {processor.py:163} INFO - Started process (PID=3460) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:07:39,675] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:07:39,675] {logging_mixin.py:109} INFO - [2024-07-12 00:07:39,675] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:07:39,762] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:07:39,775] {logging_mixin.py:109} INFO - [2024-07-12 00:07:39,774] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:07:39,796] {logging_mixin.py:109} INFO - [2024-07-12 00:07:39,795] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:07:39,807] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.137 seconds
+[2024-07-12 00:08:10,336] {processor.py:163} INFO - Started process (PID=3491) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:08:10,338] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:08:10,339] {logging_mixin.py:109} INFO - [2024-07-12 00:08:10,338] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:08:10,404] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:08:10,415] {logging_mixin.py:109} INFO - [2024-07-12 00:08:10,415] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:08:10,434] {logging_mixin.py:109} INFO - [2024-07-12 00:08:10,434] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:08:10,444] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.113 seconds
+[2024-07-12 00:08:41,065] {processor.py:163} INFO - Started process (PID=3522) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:08:41,066] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:08:41,067] {logging_mixin.py:109} INFO - [2024-07-12 00:08:41,067] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:08:41,160] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:08:41,173] {logging_mixin.py:109} INFO - [2024-07-12 00:08:41,173] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:08:41,194] {logging_mixin.py:109} INFO - [2024-07-12 00:08:41,193] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:08:41,206] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.146 seconds
+[2024-07-12 00:09:11,649] {processor.py:163} INFO - Started process (PID=3553) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:09:11,650] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:09:11,651] {logging_mixin.py:109} INFO - [2024-07-12 00:09:11,651] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:09:11,714] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:09:11,725] {logging_mixin.py:109} INFO - [2024-07-12 00:09:11,725] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:09:11,745] {logging_mixin.py:109} INFO - [2024-07-12 00:09:11,745] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:09:11,755] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.109 seconds
+[2024-07-12 00:09:42,618] {processor.py:163} INFO - Started process (PID=3584) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:09:42,621] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:09:42,622] {logging_mixin.py:109} INFO - [2024-07-12 00:09:42,621] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:09:42,686] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:09:42,697] {logging_mixin.py:109} INFO - [2024-07-12 00:09:42,697] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:09:42,716] {logging_mixin.py:109} INFO - [2024-07-12 00:09:42,716] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:09:42,727] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.115 seconds
+[2024-07-12 00:10:13,294] {processor.py:163} INFO - Started process (PID=3615) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:10:13,295] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:10:13,296] {logging_mixin.py:109} INFO - [2024-07-12 00:10:13,296] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:10:13,361] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:10:13,372] {logging_mixin.py:109} INFO - [2024-07-12 00:10:13,372] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:10:13,392] {logging_mixin.py:109} INFO - [2024-07-12 00:10:13,392] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:10:13,402] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.112 seconds
+[2024-07-12 00:10:43,980] {processor.py:163} INFO - Started process (PID=3646) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:10:43,982] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:10:43,983] {logging_mixin.py:109} INFO - [2024-07-12 00:10:43,983] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:10:44,052] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:10:44,063] {logging_mixin.py:109} INFO - [2024-07-12 00:10:44,063] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:10:44,083] {logging_mixin.py:109} INFO - [2024-07-12 00:10:44,083] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:10:44,094] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.120 seconds
+[2024-07-12 00:11:14,635] {processor.py:163} INFO - Started process (PID=3677) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:11:14,636] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:11:14,636] {logging_mixin.py:109} INFO - [2024-07-12 00:11:14,636] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:11:14,694] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:11:14,705] {logging_mixin.py:109} INFO - [2024-07-12 00:11:14,704] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:11:14,722] {logging_mixin.py:109} INFO - [2024-07-12 00:11:14,722] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:11:14,731] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.099 seconds
+[2024-07-12 00:11:44,810] {processor.py:163} INFO - Started process (PID=3687) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:11:44,812] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:11:44,813] {logging_mixin.py:109} INFO - [2024-07-12 00:11:44,812] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:11:44,872] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:11:44,882] {logging_mixin.py:109} INFO - [2024-07-12 00:11:44,882] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:11:44,902] {logging_mixin.py:109} INFO - [2024-07-12 00:11:44,902] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:11:44,911] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.105 seconds
+[2024-07-12 00:12:15,447] {processor.py:163} INFO - Started process (PID=3718) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:12:15,448] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:12:15,448] {logging_mixin.py:109} INFO - [2024-07-12 00:12:15,448] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:12:15,517] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:12:15,528] {logging_mixin.py:109} INFO - [2024-07-12 00:12:15,527] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:12:15,548] {logging_mixin.py:109} INFO - [2024-07-12 00:12:15,548] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:12:15,557] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.113 seconds
+[2024-07-12 00:12:46,096] {processor.py:163} INFO - Started process (PID=3749) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:12:46,098] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:12:46,099] {logging_mixin.py:109} INFO - [2024-07-12 00:12:46,099] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:12:46,157] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:12:46,167] {logging_mixin.py:109} INFO - [2024-07-12 00:12:46,167] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:12:46,186] {logging_mixin.py:109} INFO - [2024-07-12 00:12:46,186] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:12:46,201] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.108 seconds
+[2024-07-12 00:13:16,953] {processor.py:163} INFO - Started process (PID=3780) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:13:16,955] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:13:16,955] {logging_mixin.py:109} INFO - [2024-07-12 00:13:16,955] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:13:17,020] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:13:17,031] {logging_mixin.py:109} INFO - [2024-07-12 00:13:17,031] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:13:17,051] {logging_mixin.py:109} INFO - [2024-07-12 00:13:17,051] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:13:17,062] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.111 seconds
+[2024-07-12 00:13:47,691] {processor.py:163} INFO - Started process (PID=3811) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:13:47,694] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:13:47,695] {logging_mixin.py:109} INFO - [2024-07-12 00:13:47,695] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:13:47,755] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:13:47,766] {logging_mixin.py:109} INFO - [2024-07-12 00:13:47,766] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:13:47,785] {logging_mixin.py:109} INFO - [2024-07-12 00:13:47,785] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:13:47,795] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.110 seconds
+[2024-07-12 00:14:18,297] {processor.py:163} INFO - Started process (PID=3842) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:14:18,298] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:14:18,299] {logging_mixin.py:109} INFO - [2024-07-12 00:14:18,299] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:14:18,373] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:14:18,385] {logging_mixin.py:109} INFO - [2024-07-12 00:14:18,385] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:14:18,402] {logging_mixin.py:109} INFO - [2024-07-12 00:14:18,402] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:14:18,412] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.118 seconds
+[2024-07-12 00:14:48,970] {processor.py:163} INFO - Started process (PID=3873) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:14:48,974] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:14:48,974] {logging_mixin.py:109} INFO - [2024-07-12 00:14:48,974] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:14:49,038] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:14:49,050] {logging_mixin.py:109} INFO - [2024-07-12 00:14:49,050] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:14:49,071] {logging_mixin.py:109} INFO - [2024-07-12 00:14:49,071] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:14:49,081] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.114 seconds
+[2024-07-12 00:15:19,841] {processor.py:163} INFO - Started process (PID=3904) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:15:19,842] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:15:19,843] {logging_mixin.py:109} INFO - [2024-07-12 00:15:19,843] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:15:19,905] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:15:19,915] {logging_mixin.py:109} INFO - [2024-07-12 00:15:19,915] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:15:19,935] {logging_mixin.py:109} INFO - [2024-07-12 00:15:19,934] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:15:19,945] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.107 seconds
+[2024-07-12 00:15:50,537] {processor.py:163} INFO - Started process (PID=3935) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:15:50,539] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:15:50,540] {logging_mixin.py:109} INFO - [2024-07-12 00:15:50,540] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:15:50,615] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:15:50,627] {logging_mixin.py:109} INFO - [2024-07-12 00:15:50,627] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:15:50,646] {logging_mixin.py:109} INFO - [2024-07-12 00:15:50,646] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:15:50,661] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.129 seconds
+[2024-07-12 00:16:21,183] {processor.py:163} INFO - Started process (PID=3966) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:16:21,184] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:16:21,185] {logging_mixin.py:109} INFO - [2024-07-12 00:16:21,185] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:16:21,256] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:16:21,269] {logging_mixin.py:109} INFO - [2024-07-12 00:16:21,269] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:16:21,288] {logging_mixin.py:109} INFO - [2024-07-12 00:16:21,288] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:16:21,298] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.119 seconds
+[2024-07-12 00:16:51,791] {processor.py:163} INFO - Started process (PID=3997) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:16:51,793] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:16:51,794] {logging_mixin.py:109} INFO - [2024-07-12 00:16:51,794] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:16:51,852] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:16:51,863] {logging_mixin.py:109} INFO - [2024-07-12 00:16:51,863] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:16:51,880] {logging_mixin.py:109} INFO - [2024-07-12 00:16:51,880] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:16:51,889] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.104 seconds
+[2024-07-12 00:17:22,398] {processor.py:163} INFO - Started process (PID=4028) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:17:22,399] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:17:22,400] {logging_mixin.py:109} INFO - [2024-07-12 00:17:22,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:17:22,465] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:17:22,477] {logging_mixin.py:109} INFO - [2024-07-12 00:17:22,477] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:17:22,495] {logging_mixin.py:109} INFO - [2024-07-12 00:17:22,495] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:17:22,505] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.111 seconds
+[2024-07-12 00:17:53,005] {processor.py:163} INFO - Started process (PID=4059) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:17:53,007] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:17:53,008] {logging_mixin.py:109} INFO - [2024-07-12 00:17:53,008] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:17:53,070] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:17:53,080] {logging_mixin.py:109} INFO - [2024-07-12 00:17:53,080] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:17:53,099] {logging_mixin.py:109} INFO - [2024-07-12 00:17:53,099] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:17:53,109] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.110 seconds
+[2024-07-12 00:18:23,691] {processor.py:163} INFO - Started process (PID=4090) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:18:23,692] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:18:23,693] {logging_mixin.py:109} INFO - [2024-07-12 00:18:23,692] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:18:23,757] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:18:23,768] {logging_mixin.py:109} INFO - [2024-07-12 00:18:23,768] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:18:23,787] {logging_mixin.py:109} INFO - [2024-07-12 00:18:23,787] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:18:23,797] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.110 seconds
+[2024-07-12 00:18:54,361] {processor.py:163} INFO - Started process (PID=4121) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:18:54,362] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:18:54,363] {logging_mixin.py:109} INFO - [2024-07-12 00:18:54,363] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:18:54,421] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:18:54,431] {logging_mixin.py:109} INFO - [2024-07-12 00:18:54,431] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:18:54,451] {logging_mixin.py:109} INFO - [2024-07-12 00:18:54,451] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:18:54,461] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.103 seconds
+[2024-07-12 00:19:24,945] {processor.py:163} INFO - Started process (PID=4152) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:19:24,947] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:19:24,948] {logging_mixin.py:109} INFO - [2024-07-12 00:19:24,948] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:19:25,011] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:19:25,022] {logging_mixin.py:109} INFO - [2024-07-12 00:19:25,022] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:19:25,041] {logging_mixin.py:109} INFO - [2024-07-12 00:19:25,041] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:19:25,050] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.111 seconds
+[2024-07-12 00:19:55,540] {processor.py:163} INFO - Started process (PID=4183) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:19:55,542] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:19:55,543] {logging_mixin.py:109} INFO - [2024-07-12 00:19:55,543] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:19:55,610] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:19:55,623] {logging_mixin.py:109} INFO - [2024-07-12 00:19:55,623] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:19:55,642] {logging_mixin.py:109} INFO - [2024-07-12 00:19:55,642] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:19:55,654] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.116 seconds
+[2024-07-12 00:20:26,143] {processor.py:163} INFO - Started process (PID=4214) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:20:26,144] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:20:26,145] {logging_mixin.py:109} INFO - [2024-07-12 00:20:26,145] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:20:26,211] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:20:26,222] {logging_mixin.py:109} INFO - [2024-07-12 00:20:26,222] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:20:26,241] {logging_mixin.py:109} INFO - [2024-07-12 00:20:26,241] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:20:26,252] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.112 seconds
+[2024-07-12 00:20:56,829] {processor.py:163} INFO - Started process (PID=4245) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:20:56,831] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:20:56,832] {logging_mixin.py:109} INFO - [2024-07-12 00:20:56,832] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:20:56,904] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:20:56,918] {logging_mixin.py:109} INFO - [2024-07-12 00:20:56,918] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:20:56,939] {logging_mixin.py:109} INFO - [2024-07-12 00:20:56,939] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:20:56,950] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.124 seconds
+[2024-07-12 00:21:27,560] {processor.py:163} INFO - Started process (PID=4276) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:21:27,562] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:21:27,563] {logging_mixin.py:109} INFO - [2024-07-12 00:21:27,563] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:21:27,632] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:21:27,645] {logging_mixin.py:109} INFO - [2024-07-12 00:21:27,645] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:21:27,665] {logging_mixin.py:109} INFO - [2024-07-12 00:21:27,665] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:21:27,675] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.119 seconds
+[2024-07-12 00:21:58,233] {processor.py:163} INFO - Started process (PID=4307) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:21:58,235] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:21:58,236] {logging_mixin.py:109} INFO - [2024-07-12 00:21:58,235] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:21:58,295] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:21:58,304] {logging_mixin.py:109} INFO - [2024-07-12 00:21:58,304] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:21:58,324] {logging_mixin.py:109} INFO - [2024-07-12 00:21:58,324] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:21:58,334] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.104 seconds
+[2024-07-12 00:22:28,982] {processor.py:163} INFO - Started process (PID=4338) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:22:28,984] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:22:28,985] {logging_mixin.py:109} INFO - [2024-07-12 00:22:28,985] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:22:29,048] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:22:29,057] {logging_mixin.py:109} INFO - [2024-07-12 00:22:29,057] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:22:29,075] {logging_mixin.py:109} INFO - [2024-07-12 00:22:29,075] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:22:29,085] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.109 seconds
+[2024-07-12 00:22:59,605] {processor.py:163} INFO - Started process (PID=4369) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:22:59,607] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:22:59,608] {logging_mixin.py:109} INFO - [2024-07-12 00:22:59,607] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:22:59,670] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:22:59,681] {logging_mixin.py:109} INFO - [2024-07-12 00:22:59,680] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:22:59,699] {logging_mixin.py:109} INFO - [2024-07-12 00:22:59,699] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:22:59,709] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.111 seconds
+[2024-07-12 00:23:30,241] {processor.py:163} INFO - Started process (PID=4400) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:23:30,242] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:23:30,243] {logging_mixin.py:109} INFO - [2024-07-12 00:23:30,242] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:23:30,300] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:23:30,310] {logging_mixin.py:109} INFO - [2024-07-12 00:23:30,309] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:23:30,330] {logging_mixin.py:109} INFO - [2024-07-12 00:23:30,329] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:23:30,339] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.101 seconds
+[2024-07-12 00:24:01,135] {processor.py:163} INFO - Started process (PID=4431) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:24:01,136] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:24:01,137] {logging_mixin.py:109} INFO - [2024-07-12 00:24:01,137] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:24:01,214] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:24:01,225] {logging_mixin.py:109} INFO - [2024-07-12 00:24:01,225] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:24:01,242] {logging_mixin.py:109} INFO - [2024-07-12 00:24:01,242] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:24:01,252] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.119 seconds
+[2024-07-12 00:24:31,763] {processor.py:163} INFO - Started process (PID=4462) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:24:31,765] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:24:31,766] {logging_mixin.py:109} INFO - [2024-07-12 00:24:31,766] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:24:31,830] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:24:31,840] {logging_mixin.py:109} INFO - [2024-07-12 00:24:31,840] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:24:31,858] {logging_mixin.py:109} INFO - [2024-07-12 00:24:31,857] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:24:31,867] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.108 seconds
+[2024-07-12 00:25:02,391] {processor.py:163} INFO - Started process (PID=4493) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:25:02,392] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:25:02,393] {logging_mixin.py:109} INFO - [2024-07-12 00:25:02,393] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:25:02,451] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:25:02,461] {logging_mixin.py:109} INFO - [2024-07-12 00:25:02,461] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:25:02,479] {logging_mixin.py:109} INFO - [2024-07-12 00:25:02,479] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:25:02,489] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.101 seconds
+[2024-07-12 00:25:32,621] {processor.py:163} INFO - Started process (PID=4524) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:25:32,622] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:25:32,623] {logging_mixin.py:109} INFO - [2024-07-12 00:25:32,623] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:25:32,682] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:25:32,692] {logging_mixin.py:109} INFO - [2024-07-12 00:25:32,691] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:25:32,712] {logging_mixin.py:109} INFO - [2024-07-12 00:25:32,712] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:25:32,722] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.103 seconds
+[2024-07-12 00:26:03,302] {processor.py:163} INFO - Started process (PID=4555) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:26:03,303] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:26:03,305] {logging_mixin.py:109} INFO - [2024-07-12 00:26:03,304] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:26:03,376] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:26:03,387] {logging_mixin.py:109} INFO - [2024-07-12 00:26:03,387] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:26:03,403] {logging_mixin.py:109} INFO - [2024-07-12 00:26:03,403] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T17:00:00+00:00
+[2024-07-12 00:26:03,416] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.117 seconds
+[2024-07-12 00:26:33,957] {processor.py:163} INFO - Started process (PID=4584) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:26:33,958] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:26:33,959] {logging_mixin.py:109} INFO - [2024-07-12 00:26:33,958] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:26:34,017] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:26:34,027] {logging_mixin.py:109} INFO - [2024-07-12 00:26:34,027] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:26:34,044] {logging_mixin.py:109} INFO - [2024-07-12 00:26:34,043] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-27T15:00:00+00:00
+[2024-07-12 00:26:34,052] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.098 seconds
+[2024-07-12 00:27:04,209] {processor.py:163} INFO - Started process (PID=4741) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:27:04,212] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:27:04,226] {logging_mixin.py:109} INFO - [2024-07-12 00:27:04,225] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:27:04,807] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:27:04,843] {logging_mixin.py:109} INFO - [2024-07-12 00:27:04,843] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:27:04,956] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.750 seconds
+[2024-07-12 00:27:35,148] {processor.py:163} INFO - Started process (PID=4780) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:27:35,157] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:27:35,157] {logging_mixin.py:109} INFO - [2024-07-12 00:27:35,157] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:27:35,320] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:27:35,356] {logging_mixin.py:109} INFO - [2024-07-12 00:27:35,356] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:27:35,404] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.260 seconds
+[2024-07-12 00:28:05,601] {processor.py:163} INFO - Started process (PID=4807) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:28:05,602] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:28:05,606] {logging_mixin.py:109} INFO - [2024-07-12 00:28:05,606] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:28:06,127] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:28:06,158] {logging_mixin.py:109} INFO - [2024-07-12 00:28:06,158] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:28:06,232] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.635 seconds
+[2024-07-12 00:28:42,459] {processor.py:163} INFO - Started process (PID=4840) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:28:42,546] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:28:42,547] {logging_mixin.py:109} INFO - [2024-07-12 00:28:42,547] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:28:42,765] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:28:42,798] {logging_mixin.py:109} INFO - [2024-07-12 00:28:42,798] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:28:42,870] {logging_mixin.py:109} INFO - [2024-07-12 00:28:42,870] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-24T21:00:00+00:00
+[2024-07-12 00:28:42,914] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.471 seconds
+[2024-07-12 00:29:14,440] {processor.py:163} INFO - Started process (PID=4890) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:29:14,441] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:29:14,441] {logging_mixin.py:109} INFO - [2024-07-12 00:29:14,441] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:29:14,518] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:29:14,529] {logging_mixin.py:109} INFO - [2024-07-12 00:29:14,528] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:29:14,546] {logging_mixin.py:109} INFO - [2024-07-12 00:29:14,546] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-13T10:00:00+00:00
+[2024-07-12 00:29:14,555] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.118 seconds
+[2024-07-12 00:29:44,711] {processor.py:163} INFO - Started process (PID=4926) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:29:44,713] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:29:44,714] {logging_mixin.py:109} INFO - [2024-07-12 00:29:44,714] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:29:44,851] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:29:44,862] {logging_mixin.py:109} INFO - [2024-07-12 00:29:44,862] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:29:44,881] {logging_mixin.py:109} INFO - [2024-07-12 00:29:44,881] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:29:44,908] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.201 seconds
+[2024-07-12 00:30:14,991] {processor.py:163} INFO - Started process (PID=4976) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:30:14,992] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:30:14,993] {logging_mixin.py:109} INFO - [2024-07-12 00:30:14,992] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:30:15,067] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:30:15,081] {logging_mixin.py:109} INFO - [2024-07-12 00:30:15,081] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:30:15,101] {logging_mixin.py:109} INFO - [2024-07-12 00:30:15,100] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:30:15,114] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.127 seconds
+[2024-07-12 00:30:45,298] {processor.py:163} INFO - Started process (PID=5007) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:30:45,300] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:30:45,300] {logging_mixin.py:109} INFO - [2024-07-12 00:30:45,300] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:30:45,365] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:30:45,376] {logging_mixin.py:109} INFO - [2024-07-12 00:30:45,376] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:30:45,394] {logging_mixin.py:109} INFO - [2024-07-12 00:30:45,394] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:30:45,404] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.110 seconds
+[2024-07-12 00:31:16,028] {processor.py:163} INFO - Started process (PID=5038) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:31:16,029] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:31:16,030] {logging_mixin.py:109} INFO - [2024-07-12 00:31:16,030] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:31:16,088] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:31:16,100] {logging_mixin.py:109} INFO - [2024-07-12 00:31:16,099] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:31:16,122] {logging_mixin.py:109} INFO - [2024-07-12 00:31:16,122] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:31:16,133] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.107 seconds
+[2024-07-12 00:31:46,598] {processor.py:163} INFO - Started process (PID=5069) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:31:46,600] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:31:46,601] {logging_mixin.py:109} INFO - [2024-07-12 00:31:46,601] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:31:46,658] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:31:46,668] {logging_mixin.py:109} INFO - [2024-07-12 00:31:46,668] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:31:46,688] {logging_mixin.py:109} INFO - [2024-07-12 00:31:46,687] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:31:46,697] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.102 seconds
+[2024-07-12 00:32:17,349] {processor.py:163} INFO - Started process (PID=5100) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:32:17,350] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:32:17,351] {logging_mixin.py:109} INFO - [2024-07-12 00:32:17,351] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:32:17,426] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:32:17,443] {logging_mixin.py:109} INFO - [2024-07-12 00:32:17,443] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:32:17,463] {logging_mixin.py:109} INFO - [2024-07-12 00:32:17,463] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:32:17,474] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.129 seconds
+[2024-07-12 00:32:47,948] {processor.py:163} INFO - Started process (PID=5131) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:32:47,949] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:32:47,950] {logging_mixin.py:109} INFO - [2024-07-12 00:32:47,950] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:32:48,016] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:32:48,027] {logging_mixin.py:109} INFO - [2024-07-12 00:32:48,027] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:32:48,048] {logging_mixin.py:109} INFO - [2024-07-12 00:32:48,048] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:32:48,059] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.115 seconds
+[2024-07-12 00:33:19,011] {processor.py:163} INFO - Started process (PID=5162) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:33:19,013] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:33:19,013] {logging_mixin.py:109} INFO - [2024-07-12 00:33:19,013] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:33:19,091] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:33:19,103] {logging_mixin.py:109} INFO - [2024-07-12 00:33:19,103] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:33:19,120] {logging_mixin.py:109} INFO - [2024-07-12 00:33:19,120] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:33:19,128] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.120 seconds
+[2024-07-12 00:33:49,754] {processor.py:163} INFO - Started process (PID=5193) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:33:49,756] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:33:49,757] {logging_mixin.py:109} INFO - [2024-07-12 00:33:49,757] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:33:49,833] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:33:49,844] {logging_mixin.py:109} INFO - [2024-07-12 00:33:49,844] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:33:49,863] {logging_mixin.py:109} INFO - [2024-07-12 00:33:49,863] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:33:49,872] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.122 seconds
+[2024-07-12 00:34:20,410] {processor.py:163} INFO - Started process (PID=5224) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:34:20,412] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:34:20,414] {logging_mixin.py:109} INFO - [2024-07-12 00:34:20,414] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:34:20,498] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:34:20,513] {logging_mixin.py:109} INFO - [2024-07-12 00:34:20,513] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:34:20,538] {logging_mixin.py:109} INFO - [2024-07-12 00:34:20,538] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:34:20,557] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.150 seconds
+[2024-07-12 00:34:51,366] {processor.py:163} INFO - Started process (PID=5255) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:34:51,367] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:34:51,368] {logging_mixin.py:109} INFO - [2024-07-12 00:34:51,368] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:34:51,438] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:34:51,450] {logging_mixin.py:109} INFO - [2024-07-12 00:34:51,450] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:34:51,470] {logging_mixin.py:109} INFO - [2024-07-12 00:34:51,470] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:34:51,481] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.119 seconds
+[2024-07-12 00:35:22,147] {processor.py:163} INFO - Started process (PID=5286) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:35:22,149] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:35:22,149] {logging_mixin.py:109} INFO - [2024-07-12 00:35:22,149] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:35:22,218] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:35:22,231] {logging_mixin.py:109} INFO - [2024-07-12 00:35:22,231] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:35:22,250] {logging_mixin.py:109} INFO - [2024-07-12 00:35:22,250] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:35:22,261] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.121 seconds
+[2024-07-12 00:35:52,289] {processor.py:163} INFO - Started process (PID=5317) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:35:52,291] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:35:52,291] {logging_mixin.py:109} INFO - [2024-07-12 00:35:52,291] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:35:52,354] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:35:52,364] {logging_mixin.py:109} INFO - [2024-07-12 00:35:52,363] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:35:52,383] {logging_mixin.py:109} INFO - [2024-07-12 00:35:52,383] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:35:52,394] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.108 seconds
+[2024-07-12 00:36:22,928] {processor.py:163} INFO - Started process (PID=5348) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:36:22,929] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:36:22,930] {logging_mixin.py:109} INFO - [2024-07-12 00:36:22,930] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:36:22,997] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:36:23,011] {logging_mixin.py:109} INFO - [2024-07-12 00:36:23,011] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:36:23,033] {logging_mixin.py:109} INFO - [2024-07-12 00:36:23,033] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:36:23,043] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.119 seconds
+[2024-07-12 00:36:53,632] {processor.py:163} INFO - Started process (PID=5381) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:36:53,635] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:36:53,635] {logging_mixin.py:109} INFO - [2024-07-12 00:36:53,635] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:36:53,698] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:36:53,708] {logging_mixin.py:109} INFO - [2024-07-12 00:36:53,708] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:36:53,726] {logging_mixin.py:109} INFO - [2024-07-12 00:36:53,726] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:36:53,735] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.106 seconds
+[2024-07-12 00:37:24,298] {processor.py:163} INFO - Started process (PID=5419) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:37:24,301] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:37:24,302] {logging_mixin.py:109} INFO - [2024-07-12 00:37:24,302] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:37:24,364] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:37:24,375] {logging_mixin.py:109} INFO - [2024-07-12 00:37:24,375] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:37:24,394] {logging_mixin.py:109} INFO - [2024-07-12 00:37:24,393] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:37:24,404] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.109 seconds
+[2024-07-12 00:37:54,967] {processor.py:163} INFO - Started process (PID=5450) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:37:54,969] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:37:54,969] {logging_mixin.py:109} INFO - [2024-07-12 00:37:54,969] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:37:55,035] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:37:55,048] {logging_mixin.py:109} INFO - [2024-07-12 00:37:55,048] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:37:55,067] {logging_mixin.py:109} INFO - [2024-07-12 00:37:55,066] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:37:55,077] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.112 seconds
+[2024-07-12 00:38:25,549] {processor.py:163} INFO - Started process (PID=5481) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:38:25,550] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:38:25,550] {logging_mixin.py:109} INFO - [2024-07-12 00:38:25,550] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:38:25,609] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:38:25,619] {logging_mixin.py:109} INFO - [2024-07-12 00:38:25,619] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:38:25,639] {logging_mixin.py:109} INFO - [2024-07-12 00:38:25,639] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:38:25,649] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.102 seconds
+[2024-07-12 00:38:56,319] {processor.py:163} INFO - Started process (PID=5512) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:38:56,325] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:38:56,326] {logging_mixin.py:109} INFO - [2024-07-12 00:38:56,325] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:38:56,393] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:38:56,406] {logging_mixin.py:109} INFO - [2024-07-12 00:38:56,406] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:38:56,424] {logging_mixin.py:109} INFO - [2024-07-12 00:38:56,424] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:38:56,433] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.119 seconds
+[2024-07-12 00:39:27,068] {processor.py:163} INFO - Started process (PID=5548) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:39:27,070] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:39:27,071] {logging_mixin.py:109} INFO - [2024-07-12 00:39:27,071] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:39:27,146] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:39:27,157] {logging_mixin.py:109} INFO - [2024-07-12 00:39:27,157] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:39:27,180] {logging_mixin.py:109} INFO - [2024-07-12 00:39:27,179] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:39:27,188] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.126 seconds
+[2024-07-12 00:39:57,862] {processor.py:163} INFO - Started process (PID=5579) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:39:57,863] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:39:57,864] {logging_mixin.py:109} INFO - [2024-07-12 00:39:57,864] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:39:57,923] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:39:57,932] {logging_mixin.py:109} INFO - [2024-07-12 00:39:57,932] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:39:57,950] {logging_mixin.py:109} INFO - [2024-07-12 00:39:57,950] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:39:57,959] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.100 seconds
+[2024-07-12 00:40:28,587] {processor.py:163} INFO - Started process (PID=5610) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:40:28,588] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:40:28,589] {logging_mixin.py:109} INFO - [2024-07-12 00:40:28,589] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:40:28,649] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:40:28,659] {logging_mixin.py:109} INFO - [2024-07-12 00:40:28,658] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:40:28,677] {logging_mixin.py:109} INFO - [2024-07-12 00:40:28,677] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:40:28,687] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.103 seconds
+[2024-07-12 00:40:59,601] {processor.py:163} INFO - Started process (PID=5641) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:40:59,603] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:40:59,604] {logging_mixin.py:109} INFO - [2024-07-12 00:40:59,604] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:40:59,667] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:40:59,677] {logging_mixin.py:109} INFO - [2024-07-12 00:40:59,677] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:40:59,697] {logging_mixin.py:109} INFO - [2024-07-12 00:40:59,697] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:40:59,708] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.113 seconds
+[2024-07-12 00:41:30,315] {processor.py:163} INFO - Started process (PID=5672) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:41:30,317] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:41:30,317] {logging_mixin.py:109} INFO - [2024-07-12 00:41:30,317] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:41:30,384] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:41:30,401] {logging_mixin.py:109} INFO - [2024-07-12 00:41:30,401] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:41:30,430] {logging_mixin.py:109} INFO - [2024-07-12 00:41:30,430] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:41:30,443] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.131 seconds
+[2024-07-12 00:42:00,947] {processor.py:163} INFO - Started process (PID=5717) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:42:00,948] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:42:00,949] {logging_mixin.py:109} INFO - [2024-07-12 00:42:00,949] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:42:01,011] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:42:01,021] {logging_mixin.py:109} INFO - [2024-07-12 00:42:01,020] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:42:01,039] {logging_mixin.py:109} INFO - [2024-07-12 00:42:01,039] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:42:01,049] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.106 seconds
+[2024-07-12 00:42:31,799] {processor.py:163} INFO - Started process (PID=5748) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:42:31,801] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:42:31,802] {logging_mixin.py:109} INFO - [2024-07-12 00:42:31,802] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:42:31,871] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:42:31,886] {logging_mixin.py:109} INFO - [2024-07-12 00:42:31,885] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:42:31,904] {logging_mixin.py:109} INFO - [2024-07-12 00:42:31,904] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:42:31,914] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.120 seconds
+[2024-07-12 00:43:02,454] {processor.py:163} INFO - Started process (PID=5779) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:43:02,456] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:43:02,457] {logging_mixin.py:109} INFO - [2024-07-12 00:43:02,457] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:43:02,526] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:43:02,537] {logging_mixin.py:109} INFO - [2024-07-12 00:43:02,537] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:43:02,555] {logging_mixin.py:109} INFO - [2024-07-12 00:43:02,555] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:43:02,564] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.115 seconds
+[2024-07-12 00:43:33,369] {processor.py:163} INFO - Started process (PID=5808) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:43:33,370] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:43:33,371] {logging_mixin.py:109} INFO - [2024-07-12 00:43:33,371] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:43:33,430] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:43:33,442] {logging_mixin.py:109} INFO - [2024-07-12 00:43:33,442] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:43:33,464] {logging_mixin.py:109} INFO - [2024-07-12 00:43:33,463] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:43:33,480] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.114 seconds
+[2024-07-12 00:44:03,552] {processor.py:163} INFO - Started process (PID=5820) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:44:03,553] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:44:03,553] {logging_mixin.py:109} INFO - [2024-07-12 00:44:03,553] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:44:03,610] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:44:03,619] {logging_mixin.py:109} INFO - [2024-07-12 00:44:03,619] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:44:03,636] {logging_mixin.py:109} INFO - [2024-07-12 00:44:03,635] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:44:03,645] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.096 seconds
+[2024-07-12 00:44:34,226] {processor.py:163} INFO - Started process (PID=5851) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:44:34,231] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:44:34,233] {logging_mixin.py:109} INFO - [2024-07-12 00:44:34,232] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:44:34,326] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:44:34,336] {logging_mixin.py:109} INFO - [2024-07-12 00:44:34,336] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:44:34,355] {logging_mixin.py:109} INFO - [2024-07-12 00:44:34,355] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:44:34,365] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.151 seconds
+[2024-07-12 00:45:05,024] {processor.py:163} INFO - Started process (PID=5882) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:45:05,025] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:45:05,025] {logging_mixin.py:109} INFO - [2024-07-12 00:45:05,025] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:45:05,088] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:45:05,100] {logging_mixin.py:109} INFO - [2024-07-12 00:45:05,100] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:45:05,120] {logging_mixin.py:109} INFO - [2024-07-12 00:45:05,120] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:45:05,132] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.111 seconds
+[2024-07-12 00:45:35,820] {processor.py:163} INFO - Started process (PID=5913) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:45:35,822] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:45:35,823] {logging_mixin.py:109} INFO - [2024-07-12 00:45:35,823] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:45:35,992] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:45:36,033] {logging_mixin.py:109} INFO - [2024-07-12 00:45:36,033] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:45:36,103] {logging_mixin.py:109} INFO - [2024-07-12 00:45:36,103] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:45:36,121] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.316 seconds
+[2024-07-12 00:46:06,909] {processor.py:163} INFO - Started process (PID=5944) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:46:06,910] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:46:06,910] {logging_mixin.py:109} INFO - [2024-07-12 00:46:06,910] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:46:06,985] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:46:06,997] {logging_mixin.py:109} INFO - [2024-07-12 00:46:06,997] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:46:07,015] {logging_mixin.py:109} INFO - [2024-07-12 00:46:07,015] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:46:07,027] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.121 seconds
+[2024-07-12 00:46:37,559] {processor.py:163} INFO - Started process (PID=5975) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:46:37,561] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:46:37,561] {logging_mixin.py:109} INFO - [2024-07-12 00:46:37,561] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:46:37,621] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:46:37,630] {logging_mixin.py:109} INFO - [2024-07-12 00:46:37,630] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:46:37,649] {logging_mixin.py:109} INFO - [2024-07-12 00:46:37,649] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:46:37,660] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.104 seconds
+[2024-07-12 00:47:08,204] {processor.py:163} INFO - Started process (PID=6011) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:47:08,206] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:47:08,207] {logging_mixin.py:109} INFO - [2024-07-12 00:47:08,207] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:47:08,275] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:47:08,287] {logging_mixin.py:109} INFO - [2024-07-12 00:47:08,286] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:47:08,304] {logging_mixin.py:109} INFO - [2024-07-12 00:47:08,304] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:47:08,315] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.119 seconds
+[2024-07-12 00:47:38,823] {processor.py:163} INFO - Started process (PID=6042) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:47:38,824] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:47:38,824] {logging_mixin.py:109} INFO - [2024-07-12 00:47:38,824] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:47:38,887] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:47:38,897] {logging_mixin.py:109} INFO - [2024-07-12 00:47:38,897] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:47:38,918] {logging_mixin.py:109} INFO - [2024-07-12 00:47:38,918] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:47:38,927] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.107 seconds
+[2024-07-12 00:48:09,623] {processor.py:163} INFO - Started process (PID=6073) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:48:09,624] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:48:09,625] {logging_mixin.py:109} INFO - [2024-07-12 00:48:09,625] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:48:09,695] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:48:09,710] {logging_mixin.py:109} INFO - [2024-07-12 00:48:09,710] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:48:09,730] {logging_mixin.py:109} INFO - [2024-07-12 00:48:09,730] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:48:09,749] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.130 seconds
+[2024-07-12 00:48:40,405] {processor.py:163} INFO - Started process (PID=6104) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:48:40,407] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:48:40,408] {logging_mixin.py:109} INFO - [2024-07-12 00:48:40,408] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:48:40,472] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:48:40,484] {logging_mixin.py:109} INFO - [2024-07-12 00:48:40,484] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:48:40,506] {logging_mixin.py:109} INFO - [2024-07-12 00:48:40,506] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:48:40,515] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.114 seconds
+[2024-07-12 00:49:11,180] {processor.py:163} INFO - Started process (PID=6135) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:49:11,183] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:49:11,184] {logging_mixin.py:109} INFO - [2024-07-12 00:49:11,184] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:49:11,245] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:49:11,255] {logging_mixin.py:109} INFO - [2024-07-12 00:49:11,255] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:49:11,276] {logging_mixin.py:109} INFO - [2024-07-12 00:49:11,276] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:49:11,286] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.113 seconds
+[2024-07-12 00:49:42,081] {processor.py:163} INFO - Started process (PID=6166) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:49:42,082] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:49:42,083] {logging_mixin.py:109} INFO - [2024-07-12 00:49:42,083] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:49:42,145] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:49:42,155] {logging_mixin.py:109} INFO - [2024-07-12 00:49:42,154] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:49:42,175] {logging_mixin.py:109} INFO - [2024-07-12 00:49:42,175] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:49:42,186] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.110 seconds
+[2024-07-12 00:50:12,943] {processor.py:163} INFO - Started process (PID=6197) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:50:12,946] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:50:12,947] {logging_mixin.py:109} INFO - [2024-07-12 00:50:12,947] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:50:13,067] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:50:13,080] {logging_mixin.py:109} INFO - [2024-07-12 00:50:13,080] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:50:13,104] {logging_mixin.py:109} INFO - [2024-07-12 00:50:13,104] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:50:13,119] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.182 seconds
+[2024-07-12 00:50:43,643] {processor.py:163} INFO - Started process (PID=6228) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:50:43,645] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:50:43,645] {logging_mixin.py:109} INFO - [2024-07-12 00:50:43,645] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:50:43,720] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:50:43,731] {logging_mixin.py:109} INFO - [2024-07-12 00:50:43,731] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:50:43,751] {logging_mixin.py:109} INFO - [2024-07-12 00:50:43,751] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:50:43,759] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.122 seconds
+[2024-07-12 00:51:14,582] {processor.py:163} INFO - Started process (PID=6259) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:51:14,583] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:51:14,584] {logging_mixin.py:109} INFO - [2024-07-12 00:51:14,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:51:14,647] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:51:14,658] {logging_mixin.py:109} INFO - [2024-07-12 00:51:14,657] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:51:14,676] {logging_mixin.py:109} INFO - [2024-07-12 00:51:14,676] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:51:14,687] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.108 seconds
+[2024-07-12 00:51:45,435] {processor.py:163} INFO - Started process (PID=6290) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:51:45,436] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:51:45,436] {logging_mixin.py:109} INFO - [2024-07-12 00:51:45,436] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:51:45,522] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:51:45,537] {logging_mixin.py:109} INFO - [2024-07-12 00:51:45,537] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:51:45,565] {logging_mixin.py:109} INFO - [2024-07-12 00:51:45,565] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:51:45,579] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.147 seconds
+[2024-07-12 00:52:16,229] {processor.py:163} INFO - Started process (PID=6321) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:52:16,230] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:52:16,231] {logging_mixin.py:109} INFO - [2024-07-12 00:52:16,231] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:52:16,300] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:52:16,315] {logging_mixin.py:109} INFO - [2024-07-12 00:52:16,315] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:52:16,337] {logging_mixin.py:109} INFO - [2024-07-12 00:52:16,336] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:52:16,349] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.123 seconds
+[2024-07-12 00:52:47,017] {processor.py:163} INFO - Started process (PID=6357) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:52:47,018] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:52:47,018] {logging_mixin.py:109} INFO - [2024-07-12 00:52:47,018] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:52:47,098] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:52:47,115] {logging_mixin.py:109} INFO - [2024-07-12 00:52:47,115] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:52:47,136] {logging_mixin.py:109} INFO - [2024-07-12 00:52:47,136] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:52:47,146] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.133 seconds
+[2024-07-12 00:53:18,062] {processor.py:163} INFO - Started process (PID=6388) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:53:18,065] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:53:18,066] {logging_mixin.py:109} INFO - [2024-07-12 00:53:18,066] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:53:18,140] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:53:18,154] {logging_mixin.py:109} INFO - [2024-07-12 00:53:18,154] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:53:18,175] {logging_mixin.py:109} INFO - [2024-07-12 00:53:18,175] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:53:18,187] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.130 seconds
+[2024-07-12 00:53:48,750] {processor.py:163} INFO - Started process (PID=6419) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:53:48,752] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:53:48,752] {logging_mixin.py:109} INFO - [2024-07-12 00:53:48,752] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:53:48,815] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:53:48,826] {logging_mixin.py:109} INFO - [2024-07-12 00:53:48,826] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:53:48,847] {logging_mixin.py:109} INFO - [2024-07-12 00:53:48,847] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:53:48,857] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.110 seconds
+[2024-07-12 00:54:19,480] {processor.py:163} INFO - Started process (PID=6450) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:54:19,482] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:54:19,482] {logging_mixin.py:109} INFO - [2024-07-12 00:54:19,482] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:54:19,565] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:54:19,584] {logging_mixin.py:109} INFO - [2024-07-12 00:54:19,584] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:54:19,609] {logging_mixin.py:109} INFO - [2024-07-12 00:54:19,606] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:54:19,621] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.146 seconds
+[2024-07-12 00:54:50,425] {processor.py:163} INFO - Started process (PID=6481) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:54:50,426] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:54:50,427] {logging_mixin.py:109} INFO - [2024-07-12 00:54:50,426] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:54:50,503] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:54:50,522] {logging_mixin.py:109} INFO - [2024-07-12 00:54:50,522] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:54:50,544] {logging_mixin.py:109} INFO - [2024-07-12 00:54:50,544] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:54:50,555] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.135 seconds
+[2024-07-12 00:55:21,290] {processor.py:163} INFO - Started process (PID=6512) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:55:21,291] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 00:55:21,292] {logging_mixin.py:109} INFO - [2024-07-12 00:55:21,292] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:55:21,351] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 00:55:21,361] {logging_mixin.py:109} INFO - [2024-07-12 00:55:21,361] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 00:55:21,379] {logging_mixin.py:109} INFO - [2024-07-12 00:55:21,379] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 00:55:21,390] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.102 seconds
+[2024-07-12 03:55:34,536] {processor.py:163} INFO - Started process (PID=6523) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 03:55:34,537] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 03:55:34,537] {logging_mixin.py:109} INFO - [2024-07-12 03:55:34,537] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 03:55:35,116] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 03:55:35,196] {logging_mixin.py:109} INFO - [2024-07-12 03:55:35,196] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 03:55:35,359] {logging_mixin.py:109} INFO - [2024-07-12 03:55:35,359] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 03:55:35,441] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.920 seconds
+[2024-07-12 09:46:52,193] {processor.py:163} INFO - Started process (PID=6584) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 09:46:52,209] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 09:46:52,209] {logging_mixin.py:109} INFO - [2024-07-12 09:46:52,209] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 09:46:52,875] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 09:46:52,957] {logging_mixin.py:109} INFO - [2024-07-12 09:46:52,956] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 09:46:53,178] {logging_mixin.py:109} INFO - [2024-07-12 09:46:53,178] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 09:46:53,338] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 1.208 seconds
+[2024-07-12 09:47:23,853] {processor.py:163} INFO - Started process (PID=6623) to work on /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 09:47:23,854] {processor.py:642} INFO - Processing file /opt/airflow/dags/webscraping_dag.py for tasks to queue
+[2024-07-12 09:47:23,855] {logging_mixin.py:109} INFO - [2024-07-12 09:47:23,855] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 09:47:23,914] {processor.py:654} INFO - DAG(s) dict_keys(['webscraping_dag']) retrieved from /opt/airflow/dags/webscraping_dag.py
+[2024-07-12 09:47:23,925] {logging_mixin.py:109} INFO - [2024-07-12 09:47:23,924] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-07-12 09:47:23,941] {logging_mixin.py:109} INFO - [2024-07-12 09:47:23,940] {dag.py:2937} INFO - Setting next_dagrun for webscraping_dag to 2023-04-01T05:00:00+00:00
+[2024-07-12 09:47:23,953] {processor.py:171} INFO - Processing /opt/airflow/dags/webscraping_dag.py took 0.102 seconds

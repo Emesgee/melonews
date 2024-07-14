@@ -1,0 +1,31 @@
+[2024-07-12 00:29:25,766] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_2.process_text manual__2024-07-12T00:29:23.174138+00:00 [queued]>
+[2024-07-12 00:29:25,776] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_2.process_text manual__2024-07-12T00:29:23.174138+00:00 [queued]>
+[2024-07-12 00:29:25,776] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-12 00:29:25,777] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-07-12 00:29:25,777] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-12 00:29:25,799] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-07-12 00:29:23.174138+00:00
+[2024-07-12 00:29:25,803] {standard_task_runner.py:52} INFO - Started process 4920 to run task
+[2024-07-12 00:29:25,813] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_2', 'process_text', 'manual__2024-07-12T00:29:23.174138+00:00', '--job-id', '3226', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_2.py', '--cfg-path', '/tmp/tmpwsh6rvn2', '--error-file', '/tmp/tmp4t_xoow_']
+[2024-07-12 00:29:25,816] {standard_task_runner.py:77} INFO - Job 3226: Subtask process_text
+[2024-07-12 00:29:25,882] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_2.process_text manual__2024-07-12T00:29:23.174138+00:00 [running]> on host cf249bbdc0d0
+[2024-07-12 00:29:25,949] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_2
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-07-12T00:29:23.174138+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-07-12T00:29:23.174138+00:00
+[2024-07-12 00:29:26,759] {logging_mixin.py:109} INFO - Index(['date', 'time', 'messages', 'video_links', 'video_durations',
+       'cleaned_text_entities', 'title', 'matched_city', 'combined_text',
+       'summarized', 'matched_city2', 'city_result', 'latitude', 'longitude'],
+      dtype='object')
+[2024-07-12 00:29:41,015] {local_task_job.py:212} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-07-12 00:29:41,018] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 4920. PIDs of all processes in the group: [4920]
+[2024-07-12 00:29:41,019] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 4920
+[2024-07-12 00:29:41,019] {taskinstance.py:1413} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-07-12 00:29:41,019] {logging_mixin.py:109} INFO - Error fetching data for city: gaza+city, Error: Task received SIGTERM signal
+[2024-07-12 00:29:44,787] {logging_mixin.py:109} INFO - Processed data saved to /opt/airflow/data/processed_data_2.json
+[2024-07-12 00:29:44,792] {python.py:175} INFO - Done. Returned value was: None
+[2024-07-12 00:29:44,832] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=text_processing_dag_2, task_id=process_text, execution_date=20240712T002923, start_date=20240712T002925, end_date=20240712T002944
+[2024-07-12 00:29:44,888] {process_utils.py:70} INFO - Process psutil.Process(pid=4920, status='terminated', exitcode=0, started='00:29:25') (4920) terminated with exit code 0

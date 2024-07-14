@@ -1,0 +1,107 @@
+/* Common styles for header and container */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 30px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Optional: Add margin to separate logo from heading */
+}
+
+h1 {
+    font-size: 1.5em; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+}
+
+#container {
+    display: flex; /* Use flexbox for layout */
+    position: relative; /* Ensure container is relatively positioned */
+}
+
+/* Sidebar styles */
+#sidebar {
+    position: fixed; /* Fixed position */
+    top: 35px; /* Adjusted top position for desktop */
+    left: 0;
+    width: 20%; /* Adjusted width for sidebar */
+    height: 100vh; /* Adjusted height to fill viewport */
+    overflow-y: auto; /* Allow sidebar to scroll if content exceeds height */
+    background-color: #f1eded; /* Adjusted background color */
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Added box shadow */
+    z-index: 1; /* Ensure sidebar is above map */
+    padding: 10px; /* Added padding for content inside sidebar */
+}
+
+/* Map styles */
+#map {
+    position: absolute;
+    top: 35px; /* Adjusted top position for desktop */
+    left: 21%; /* Adjusted left position for desktop */
+    width: 79%; /* Adjusted width for map on desktop */
+    height: calc(100vh - 35px); /* Adjusted height for map on desktop */
+    /* 35px is the top position of sidebar and header height */
+    background-color: #ffffff; /* Example background color for map */
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Added box shadow */
+    z-index: 0; /* Ensure map is below sidebar */
+    padding: 5px; /* Added padding for content inside map */
+}
+
+/* Media queries for tablets and smaller screens */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack header items vertically */
+    }
+
+    #container {
+        flex-direction: column; /* Stack sidebar and map vertically on small screens */
+    }
+
+    #sidebar {
+        width: 100%; /* Full width for tablets */
+        height: auto; /* Auto height for tablets */
+        position: static; /* Reset positioning for smaller screens */
+        margin-bottom: 10px; /* Optional: Add margin for better spacing */
+    }
+
+    #map {
+        width: 100%; /* Full width for tablets */
+        height: 450px; /* Adjusted height for tablets */
+        position: static; /* Reset positioning for smaller screens */
+        margin-bottom: 10px; /* Optional: Add margin for better spacing */
+    }
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 576px) {
+    .header {
+        flex-direction: column; /* Stack header items vertically */
+    }
+
+    #sidebar {
+        position: fixed; /* Fixed position */
+        bottom: 0; /* Align to the bottom */
+        left: 0; /* Align to the left */
+        width: 100%; /* Full width for mobile */
+        height: 35%; /* Adjusted height for sidebar on mobile */
+        overflow-y: auto; /* Allow sidebar to scroll if content exceeds height */
+        background-color: #f1eded; /* Adjusted background color */
+        box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Added box shadow */
+        z-index: 1; /* Ensure sidebar is above map */
+        padding: 10px; /* Added padding for content inside sidebar */
+    }
+
+    #map {
+        width: 100%; /* Full width for mobile */
+        height: 100%; /* Adjusted height for map on mobile */
+        position: fixed; /* Fixed position */
+        top: 43%; /* Adjusted top position for mobile */
+        left: 0; /* Align to the left */
+        background-color: #ffffff; /* Example background color for map */
+        box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Added box shadow */
+        z-index: 0; /* Ensure map is below sidebar */
+        padding: 5px; /* Added padding for content inside map */
+    }
+}

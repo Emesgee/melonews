@@ -1,0 +1,900 @@
+[2024-06-20 19:32:23,881] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 19:32:23,913] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 19:32:23,913] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 19:32:23,914] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-20 19:32:23,914] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 19:32:24,033] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-20 19:32:24,047] {standard_task_runner.py:52} INFO - Started process 249 to run task
+[2024-06-20 19:32:24,203] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmppeub490e', '--error-file', '/tmp/tmpgqenxmb1']
+[2024-06-20 19:32:24,206] {standard_task_runner.py:77} INFO - Job 15: Subtask process_text
+[2024-06-20 19:32:24,722] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host 09fa9687a8d2
+[2024-06-20 19:32:25,173] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-20 19:32:29,115] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 16, in process_text
+    nlp = spacy.load("en_core_web_sm")
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/__init__.py", line 57, in load
+    config=config,
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 472, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+[2024-06-20 19:32:29,186] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240620T193223, end_date=20240620T193229
+[2024-06-20 19:32:29,278] {standard_task_runner.py:92} ERROR - Failed to execute job 15 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 16, in process_text
+    nlp = spacy.load("en_core_web_sm")
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/__init__.py", line 57, in load
+    config=config,
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 472, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+[2024-06-20 19:32:29,448] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-20 19:32:29,882] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-20 20:02:21,244] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 20:02:21,286] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 20:02:21,288] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 20:02:21,288] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-20 20:02:21,288] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 20:02:21,314] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-20 20:02:21,320] {standard_task_runner.py:52} INFO - Started process 355 to run task
+[2024-06-20 20:02:21,327] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmp6hlla4gj', '--error-file', '/tmp/tmpgxp687qz']
+[2024-06-20 20:02:21,331] {standard_task_runner.py:77} INFO - Job 32: Subtask process_text
+[2024-06-20 20:02:21,401] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host b95ccdd7ac61
+[2024-06-20 20:02:21,477] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-20 20:02:21,644] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 16, in process_text
+    nlp = spacy.load("en_core_web_sm")
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/__init__.py", line 57, in load
+    config=config,
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 472, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+[2024-06-20 20:02:21,690] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240620T200221, end_date=20240620T200221
+[2024-06-20 20:02:21,722] {standard_task_runner.py:92} ERROR - Failed to execute job 32 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 16, in process_text
+    nlp = spacy.load("en_core_web_sm")
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/__init__.py", line 57, in load
+    config=config,
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 472, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+[2024-06-20 20:02:21,747] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-20 20:02:21,817] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-20 20:17:08,388] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 20:17:08,423] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 20:17:08,424] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 20:17:08,425] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-20 20:17:08,426] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 20:17:08,473] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-20 20:17:08,490] {standard_task_runner.py:52} INFO - Started process 460 to run task
+[2024-06-20 20:17:08,506] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpo0swyd0q', '--error-file', '/tmp/tmp0tkjenwk']
+[2024-06-20 20:17:08,537] {standard_task_runner.py:77} INFO - Job 38: Subtask process_text
+[2024-06-20 20:17:08,717] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host 659bb847486a
+[2024-06-20 20:17:08,829] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-20 20:17:10,907] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 19, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mhmdghdbn/airflow/zookeeper/airflow/data/output.json'
+[2024-06-20 20:17:10,947] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240620T201708, end_date=20240620T201710
+[2024-06-20 20:17:10,979] {standard_task_runner.py:92} ERROR - Failed to execute job 38 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 19, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mhmdghdbn/airflow/zookeeper/airflow/data/output.json'
+[2024-06-20 20:17:11,044] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-20 20:17:11,148] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-20 21:42:42,648] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 21:42:42,663] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 21:42:42,664] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 21:42:42,664] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-20 21:42:42,664] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 21:42:42,678] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-20 21:42:42,682] {standard_task_runner.py:52} INFO - Started process 1636 to run task
+[2024-06-20 21:42:42,687] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpq3d3ik_l', '--error-file', '/tmp/tmpiwv_cx2d']
+[2024-06-20 21:42:42,691] {standard_task_runner.py:77} INFO - Job 43: Subtask process_text
+[2024-06-20 21:42:42,772] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host f27fb6807f66
+[2024-06-20 21:42:42,851] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-20 21:42:43,685] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 19, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mhmdghdbn/airflow/zookeeper/airflow/data/output.json'
+[2024-06-20 21:42:43,702] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240620T214242, end_date=20240620T214243
+[2024-06-20 21:42:43,717] {standard_task_runner.py:92} ERROR - Failed to execute job 43 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 19, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mhmdghdbn/airflow/zookeeper/airflow/data/output.json'
+[2024-06-20 21:42:43,751] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-20 21:42:43,854] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-20 22:09:29,756] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 22:09:29,765] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 22:09:29,765] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 22:09:29,765] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-20 22:09:29,765] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 22:09:29,776] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-20 22:09:29,780] {standard_task_runner.py:52} INFO - Started process 262 to run task
+[2024-06-20 22:09:29,784] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpqu8p4yyb', '--error-file', '/tmp/tmpt2za6aqo']
+[2024-06-20 22:09:29,786] {standard_task_runner.py:77} INFO - Job 51: Subtask process_text
+[2024-06-20 22:09:29,852] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host a16d7d16075c
+[2024-06-20 22:09:29,942] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-20 22:09:30,758] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 19, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mhmdghdbn/airflow/zookeeper/airflow/data/output.json'
+[2024-06-20 22:09:30,773] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240620T220929, end_date=20240620T220930
+[2024-06-20 22:09:30,786] {standard_task_runner.py:92} ERROR - Failed to execute job 51 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 19, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mhmdghdbn/airflow/zookeeper/airflow/data/output.json'
+[2024-06-20 22:09:30,801] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-20 22:09:30,839] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-20 22:46:16,420] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 22:46:16,435] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-20 22:46:16,436] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 22:46:16,436] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-20 22:46:16,436] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-20 22:46:16,454] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-20 22:46:16,464] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpkfjec2uh', '--error-file', '/tmp/tmpzoj7w6wx']
+[2024-06-20 22:46:16,460] {standard_task_runner.py:52} INFO - Started process 251 to run task
+[2024-06-20 22:46:16,468] {standard_task_runner.py:77} INFO - Job 57: Subtask process_text
+[2024-06-20 22:46:16,543] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host 8b27108e73fe
+[2024-06-20 22:46:16,613] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-20 22:46:19,129] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 20, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mhmdghdbn/airflow/zookeeper/airflow/data/output.json'
+[2024-06-20 22:46:19,144] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240620T224616, end_date=20240620T224619
+[2024-06-20 22:46:19,157] {standard_task_runner.py:92} ERROR - Failed to execute job 57 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 20, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mhmdghdbn/airflow/zookeeper/airflow/data/output.json'
+[2024-06-20 22:46:19,201] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-20 22:46:19,237] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-21 05:48:59,084] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-21 05:48:59,094] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-21 05:48:59,094] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 05:48:59,094] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-21 05:48:59,094] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 05:48:59,105] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-21 05:48:59,110] {standard_task_runner.py:52} INFO - Started process 270 to run task
+[2024-06-21 05:48:59,114] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmp42w9g77o', '--error-file', '/tmp/tmp0m0ynab6']
+[2024-06-21 05:48:59,117] {standard_task_runner.py:77} INFO - Job 66: Subtask process_text
+[2024-06-21 05:48:59,178] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host 754d803e7b79
+[2024-06-21 05:48:59,235] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-21 05:48:59,909] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 20, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/wsl.localhost/Ubuntu/home/mhmdghdbn/airflow/zookeeper/airflow/data/output.json'
+[2024-06-21 05:48:59,924] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240621T054859, end_date=20240621T054859
+[2024-06-21 05:48:59,936] {standard_task_runner.py:92} ERROR - Failed to execute job 66 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 20, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/wsl.localhost/Ubuntu/home/mhmdghdbn/airflow/zookeeper/airflow/data/output.json'
+[2024-06-21 05:48:59,971] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-21 05:49:00,011] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-21 05:53:23,775] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-21 05:53:23,785] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-21 05:53:23,785] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 05:53:23,785] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-21 05:53:23,785] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 05:53:23,798] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-21 05:53:23,802] {standard_task_runner.py:52} INFO - Started process 269 to run task
+[2024-06-21 05:53:23,806] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpoz4ea6et', '--error-file', '/tmp/tmp0luyl7_3']
+[2024-06-21 05:53:23,809] {standard_task_runner.py:77} INFO - Job 68: Subtask process_text
+[2024-06-21 05:53:23,871] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host 754d803e7b79
+[2024-06-21 05:53:23,937] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-21 05:53:24,705] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 20, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'airflow/data/output.json'
+[2024-06-21 05:53:24,722] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240621T055323, end_date=20240621T055324
+[2024-06-21 05:53:24,736] {standard_task_runner.py:92} ERROR - Failed to execute job 68 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 20, in process_text
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'airflow/data/output.json'
+[2024-06-21 05:53:24,787] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-21 05:53:24,825] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-21 05:56:40,502] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-21 05:56:40,513] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-21 05:56:40,513] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 05:56:40,513] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-21 05:56:40,513] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 05:56:40,529] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-21 05:56:40,538] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpj0spwvph', '--error-file', '/tmp/tmpsf8_sd1l']
+[2024-06-21 05:56:40,534] {standard_task_runner.py:52} INFO - Started process 270 to run task
+[2024-06-21 05:56:40,541] {standard_task_runner.py:77} INFO - Job 72: Subtask process_text
+[2024-06-21 05:56:40,610] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host 754d803e7b79
+[2024-06-21 05:56:40,675] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-21 05:56:42,726] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 79, in process_text
+    if place_list.index(ent.text.capitalize()) == 0:
+ValueError: 'Gaza' is not in list
+[2024-06-21 05:56:42,742] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240621T055640, end_date=20240621T055642
+[2024-06-21 05:56:42,757] {standard_task_runner.py:92} ERROR - Failed to execute job 72 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 79, in process_text
+    if place_list.index(ent.text.capitalize()) == 0:
+ValueError: 'Gaza' is not in list
+[2024-06-21 05:56:42,803] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-21 05:56:42,843] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-21 06:05:43,345] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-21 06:05:43,355] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-21 06:05:43,355] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 06:05:43,355] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-21 06:05:43,355] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 06:05:43,368] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-21 06:05:43,373] {standard_task_runner.py:52} INFO - Started process 270 to run task
+[2024-06-21 06:05:43,376] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpd549zsqi', '--error-file', '/tmp/tmphtkzofae']
+[2024-06-21 06:05:43,379] {standard_task_runner.py:77} INFO - Job 77: Subtask process_text
+[2024-06-21 06:05:43,443] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host 754d803e7b79
+[2024-06-21 06:05:43,511] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-21 06:05:45,392] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 79, in process_text
+    if place_list.index(ent.text.capitalize()) == 0:
+ValueError: 'Gaza' is not in list
+[2024-06-21 06:05:45,409] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240621T060543, end_date=20240621T060545
+[2024-06-21 06:05:45,422] {standard_task_runner.py:92} ERROR - Failed to execute job 77 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 79, in process_text
+    if place_list.index(ent.text.capitalize()) == 0:
+ValueError: 'Gaza' is not in list
+[2024-06-21 06:05:45,438] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-21 06:05:45,477] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-21 06:32:59,690] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-21 06:32:59,708] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-21 06:32:59,708] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 06:32:59,708] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-21 06:32:59,708] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-21 06:32:59,733] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-21 06:32:59,741] {standard_task_runner.py:52} INFO - Started process 255 to run task
+[2024-06-21 06:32:59,755] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpv2pattoj', '--error-file', '/tmp/tmpyh1uiugp']
+[2024-06-21 06:32:59,759] {standard_task_runner.py:77} INFO - Job 84: Subtask process_text
+[2024-06-21 06:32:59,903] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host 95c89469de59
+[2024-06-21 06:33:00,288] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-21 06:33:11,656] {logging_mixin.py:109} INFO - Error: ZERO_RESULTS for city: white
+[2024-06-21 06:33:13,790] {logging_mixin.py:109} INFO - Processed data saved to /opt/airflow/data/processed_data_1.json
+[2024-06-21 06:33:14,045] {python.py:175} INFO - Done. Returned value was: None
+[2024-06-21 06:33:14,168] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240621T063259, end_date=20240621T063314
+[2024-06-21 06:33:14,324] {local_task_job.py:154} INFO - Task exited with return code 0
+[2024-06-21 06:33:14,425] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-25 04:55:09,631] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-25 04:55:09,646] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-25 04:55:09,646] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-25 04:55:09,647] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-25 04:55:09,647] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-25 04:55:09,665] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-25 04:55:09,671] {standard_task_runner.py:52} INFO - Started process 3420 to run task
+[2024-06-25 04:55:09,682] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '159', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpc0s2foe9', '--error-file', '/tmp/tmpfzmuk47w']
+[2024-06-25 04:55:09,685] {standard_task_runner.py:77} INFO - Job 159: Subtask process_text
+[2024-06-25 04:55:09,761] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host 09709d0d4538
+[2024-06-25 04:55:09,861] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-25 04:55:10,991] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 19, in process_text
+    df = pd.read_csv(input_path)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/data/output.json'
+[2024-06-25 04:55:11,017] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240625T045509, end_date=20240625T045511
+[2024-06-25 04:55:11,104] {standard_task_runner.py:92} ERROR - Failed to execute job 159 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 19, in process_text
+    df = pd.read_csv(input_path)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/data/output.json'
+[2024-06-25 04:55:11,146] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-25 04:55:11,197] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-25 04:55:41,912] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-25 04:55:41,933] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-06-25 04:55:41,933] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-25 04:55:41,934] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-25 04:55:41,934] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-25 04:55:41,958] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-06-25 04:55:41,964] {standard_task_runner.py:52} INFO - Started process 3491 to run task
+[2024-06-25 04:55:41,978] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '172', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmp83vkrmqb', '--error-file', '/tmp/tmpx6ottcfw']
+[2024-06-25 04:55:41,984] {standard_task_runner.py:77} INFO - Job 172: Subtask process_text
+[2024-06-25 04:55:42,092] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host 09709d0d4538
+[2024-06-25 04:55:42,186] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-06-25 04:55:43,037] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 19, in process_text
+    df = pd.read_csv(input_path)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/data/output.json'
+[2024-06-25 04:55:43,059] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240625T045541, end_date=20240625T045543
+[2024-06-25 04:55:43,072] {standard_task_runner.py:92} ERROR - Failed to execute job 172 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 19, in process_text
+    df = pd.read_csv(input_path)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/data/output.json'
+[2024-06-25 04:55:43,089] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-25 04:55:43,142] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-12 00:29:16,146] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-07-12 00:29:16,159] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [queued]>
+[2024-07-12 00:29:16,159] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-12 00:29:16,159] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-07-12 00:29:16,159] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-12 00:29:16,178] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-18 00:00:00+00:00
+[2024-07-12 00:29:16,183] {standard_task_runner.py:52} INFO - Started process 4901 to run task
+[2024-07-12 00:29:16,187] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'scheduled__2024-06-18T00:00:00+00:00', '--job-id', '3222', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmp6depfh22', '--error-file', '/tmp/tmpt_z6wnyo']
+[2024-07-12 00:29:16,190] {standard_task_runner.py:77} INFO - Job 3222: Subtask process_text
+[2024-07-12 00:29:16,252] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text scheduled__2024-06-18T00:00:00+00:00 [running]> on host cf249bbdc0d0
+[2024-07-12 00:29:16,330] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-18T00:00:00+00:00
+[2024-07-12 00:29:17,206] {logging_mixin.py:109} INFO - Index(['date', 'time', 'messages', 'video_links', 'video_durations'], dtype='object')
+[2024-07-12 00:29:28,574] {logging_mixin.py:109} INFO - Error: ZERO_RESULTS for city: شهيد
+[2024-07-12 00:29:28,883] {logging_mixin.py:109} INFO - Error: ZERO_RESULTS for city: mosque
+[2024-07-12 00:29:31,491] {local_task_job.py:212} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-07-12 00:29:31,499] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 4901. PIDs of all processes in the group: [4901]
+[2024-07-12 00:29:31,499] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 4901
+[2024-07-12 00:29:31,500] {taskinstance.py:1413} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-07-12 00:29:31,501] {logging_mixin.py:109} INFO - Error fetching data for city: north+gaza, Error: Task received SIGTERM signal
+[2024-07-12 00:29:32,824] {logging_mixin.py:109} INFO - Error: ZERO_RESULTS for city: الأهالي
+[2024-07-12 00:29:34,925] {logging_mixin.py:109} INFO - Error: ZERO_RESULTS for city: Maythaloun
+[2024-07-12 00:29:35,240] {logging_mixin.py:109} INFO - Processed data saved to /opt/airflow/data/processed_data_1.json
+[2024-07-12 00:29:35,242] {python.py:175} INFO - Done. Returned value was: None
+[2024-07-12 00:29:35,262] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240618T000000, start_date=20240712T002916, end_date=20240712T002935
+[2024-07-12 00:29:35,309] {process_utils.py:70} INFO - Process psutil.Process(pid=4901, status='terminated', exitcode=0, started='00:29:15') (4901) terminated with exit code 0

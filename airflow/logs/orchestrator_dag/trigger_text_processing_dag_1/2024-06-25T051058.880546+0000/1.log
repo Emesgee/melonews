@@ -1,0 +1,22 @@
+[2024-06-25 05:11:01,203] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: orchestrator_dag.trigger_text_processing_dag_1 manual__2024-06-25T05:10:58.880546+00:00 [queued]>
+[2024-06-25 05:11:01,212] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: orchestrator_dag.trigger_text_processing_dag_1 manual__2024-06-25T05:10:58.880546+00:00 [queued]>
+[2024-06-25 05:11:01,212] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-25 05:11:01,212] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-25 05:11:01,212] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-25 05:11:01,223] {taskinstance.py:1264} INFO - Executing <Task(TriggerDagRunOperator): trigger_text_processing_dag_1> on 2024-06-25 05:10:58.880546+00:00
+[2024-06-25 05:11:01,226] {standard_task_runner.py:52} INFO - Started process 4239 to run task
+[2024-06-25 05:11:01,229] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'orchestrator_dag', 'trigger_text_processing_dag_1', 'manual__2024-06-25T05:10:58.880546+00:00', '--job-id', '183', '--raw', '--subdir', 'DAGS_FOLDER/dag_orchestrator.py', '--cfg-path', '/tmp/tmpwla4cu8a', '--error-file', '/tmp/tmpv6gggwq2']
+[2024-06-25 05:11:01,232] {standard_task_runner.py:77} INFO - Job 183: Subtask trigger_text_processing_dag_1
+[2024-06-25 05:11:01,299] {logging_mixin.py:109} INFO - Running <TaskInstance: orchestrator_dag.trigger_text_processing_dag_1 manual__2024-06-25T05:10:58.880546+00:00 [running]> on host 09709d0d4538
+[2024-06-25 05:11:01,361] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=orchestrator_dag
+AIRFLOW_CTX_TASK_ID=trigger_text_processing_dag_1
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-25T05:10:58.880546+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-06-25T05:10:58.880546+00:00
+[2024-06-25 05:11:01,399] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/api/common/trigger_dag.py:90 DeprecationWarning: Calling `DAG.create_dagrun()` without an explicit data interval is deprecated
+[2024-06-25 05:11:01,460] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=orchestrator_dag, task_id=trigger_text_processing_dag_1, execution_date=20240625T051058, start_date=20240625T051101, end_date=20240625T051101
+[2024-06-25 05:11:01,481] {local_task_job.py:154} INFO - Task exited with return code 0
+[2024-06-25 05:11:01,521] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

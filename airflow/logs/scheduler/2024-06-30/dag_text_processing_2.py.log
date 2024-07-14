@@ -1,0 +1,1204 @@
+[2024-06-30 06:11:10,866] {processor.py:163} INFO - Started process (PID=56778) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:11:10,867] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:11:10,867] {logging_mixin.py:109} INFO - [2024-06-30 06:11:10,867] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:11:19,757] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:11:19,802] {logging_mixin.py:109} INFO - [2024-06-30 06:11:19,789] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:11:19,857] {logging_mixin.py:109} INFO - [2024-06-30 06:11:19,857] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:11:19,906] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 9.071 seconds
+[2024-06-30 06:11:50,950] {processor.py:163} INFO - Started process (PID=56815) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:11:50,952] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:11:50,952] {logging_mixin.py:109} INFO - [2024-06-30 06:11:50,952] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:11:52,568] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:11:52,578] {logging_mixin.py:109} INFO - [2024-06-30 06:11:52,576] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:11:52,593] {logging_mixin.py:109} INFO - [2024-06-30 06:11:52,593] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:11:52,602] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.655 seconds
+[2024-06-30 06:12:22,803] {processor.py:163} INFO - Started process (PID=56846) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:12:22,804] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:12:22,805] {logging_mixin.py:109} INFO - [2024-06-30 06:12:22,804] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:12:24,101] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:12:24,110] {logging_mixin.py:109} INFO - [2024-06-30 06:12:24,108] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:12:24,124] {logging_mixin.py:109} INFO - [2024-06-30 06:12:24,124] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:12:24,131] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.332 seconds
+[2024-06-30 06:12:54,392] {processor.py:163} INFO - Started process (PID=56877) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:12:54,393] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:12:54,394] {logging_mixin.py:109} INFO - [2024-06-30 06:12:54,394] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:12:55,954] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:12:55,966] {logging_mixin.py:109} INFO - [2024-06-30 06:12:55,965] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:12:55,983] {logging_mixin.py:109} INFO - [2024-06-30 06:12:55,983] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:12:55,990] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.601 seconds
+[2024-06-30 06:13:26,223] {processor.py:163} INFO - Started process (PID=56908) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:13:26,224] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:13:26,225] {logging_mixin.py:109} INFO - [2024-06-30 06:13:26,225] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:13:27,520] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:13:27,528] {logging_mixin.py:109} INFO - [2024-06-30 06:13:27,527] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:13:27,542] {logging_mixin.py:109} INFO - [2024-06-30 06:13:27,542] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:13:27,550] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.330 seconds
+[2024-06-30 06:13:57,762] {processor.py:163} INFO - Started process (PID=56939) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:13:57,767] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:13:57,767] {logging_mixin.py:109} INFO - [2024-06-30 06:13:57,767] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:13:59,271] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:13:59,280] {logging_mixin.py:109} INFO - [2024-06-30 06:13:59,279] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:13:59,296] {logging_mixin.py:109} INFO - [2024-06-30 06:13:59,295] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:13:59,304] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.545 seconds
+[2024-06-30 06:14:29,529] {processor.py:163} INFO - Started process (PID=56970) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:14:29,531] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:14:29,531] {logging_mixin.py:109} INFO - [2024-06-30 06:14:29,531] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:14:31,066] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:14:31,076] {logging_mixin.py:109} INFO - [2024-06-30 06:14:31,074] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:14:31,092] {logging_mixin.py:109} INFO - [2024-06-30 06:14:31,092] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:14:31,109] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.583 seconds
+[2024-06-30 06:15:01,350] {processor.py:163} INFO - Started process (PID=57001) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:15:01,351] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:15:01,352] {logging_mixin.py:109} INFO - [2024-06-30 06:15:01,352] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:15:02,682] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:15:02,691] {logging_mixin.py:109} INFO - [2024-06-30 06:15:02,690] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:15:02,706] {logging_mixin.py:109} INFO - [2024-06-30 06:15:02,706] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:15:02,715] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.370 seconds
+[2024-06-30 06:15:32,937] {processor.py:163} INFO - Started process (PID=57032) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:15:32,939] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:15:32,939] {logging_mixin.py:109} INFO - [2024-06-30 06:15:32,939] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:15:34,176] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:15:34,185] {logging_mixin.py:109} INFO - [2024-06-30 06:15:34,183] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:15:34,199] {logging_mixin.py:109} INFO - [2024-06-30 06:15:34,199] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:15:34,207] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.272 seconds
+[2024-06-30 06:16:04,456] {processor.py:163} INFO - Started process (PID=57063) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:16:04,458] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:16:04,458] {logging_mixin.py:109} INFO - [2024-06-30 06:16:04,458] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:16:05,739] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:16:05,747] {logging_mixin.py:109} INFO - [2024-06-30 06:16:05,746] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:16:05,762] {logging_mixin.py:109} INFO - [2024-06-30 06:16:05,762] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:16:05,769] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.316 seconds
+[2024-06-30 06:16:36,051] {processor.py:163} INFO - Started process (PID=57094) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:16:36,052] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:16:36,052] {logging_mixin.py:109} INFO - [2024-06-30 06:16:36,052] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:16:37,369] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:16:37,378] {logging_mixin.py:109} INFO - [2024-06-30 06:16:37,377] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:16:37,395] {logging_mixin.py:109} INFO - [2024-06-30 06:16:37,395] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:16:37,403] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.356 seconds
+[2024-06-30 06:17:07,623] {processor.py:163} INFO - Started process (PID=57125) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:17:07,629] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:17:07,630] {logging_mixin.py:109} INFO - [2024-06-30 06:17:07,630] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:17:08,907] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:17:08,916] {logging_mixin.py:109} INFO - [2024-06-30 06:17:08,914] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:17:08,932] {logging_mixin.py:109} INFO - [2024-06-30 06:17:08,932] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:17:08,939] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.318 seconds
+[2024-06-30 06:17:39,163] {processor.py:163} INFO - Started process (PID=57156) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:17:39,165] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:17:39,166] {logging_mixin.py:109} INFO - [2024-06-30 06:17:39,166] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:17:40,396] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:17:40,405] {logging_mixin.py:109} INFO - [2024-06-30 06:17:40,404] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:17:40,420] {logging_mixin.py:109} INFO - [2024-06-30 06:17:40,420] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:17:40,428] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.268 seconds
+[2024-06-30 06:18:10,684] {processor.py:163} INFO - Started process (PID=57187) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:18:10,685] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:18:10,685] {logging_mixin.py:109} INFO - [2024-06-30 06:18:10,685] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:18:12,020] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:18:12,028] {logging_mixin.py:109} INFO - [2024-06-30 06:18:12,027] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:18:12,042] {logging_mixin.py:109} INFO - [2024-06-30 06:18:12,042] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:18:12,049] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.369 seconds
+[2024-06-30 06:18:42,306] {processor.py:163} INFO - Started process (PID=57218) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:18:42,307] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:18:42,308] {logging_mixin.py:109} INFO - [2024-06-30 06:18:42,308] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:18:43,573] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:18:43,583] {logging_mixin.py:109} INFO - [2024-06-30 06:18:43,581] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:18:43,597] {logging_mixin.py:109} INFO - [2024-06-30 06:18:43,597] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:18:43,606] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.303 seconds
+[2024-06-30 06:19:13,842] {processor.py:163} INFO - Started process (PID=57249) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:19:13,843] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:19:13,843] {logging_mixin.py:109} INFO - [2024-06-30 06:19:13,843] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:19:15,082] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:19:15,090] {logging_mixin.py:109} INFO - [2024-06-30 06:19:15,089] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:19:15,103] {logging_mixin.py:109} INFO - [2024-06-30 06:19:15,103] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:19:15,112] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.272 seconds
+[2024-06-30 06:19:45,357] {processor.py:163} INFO - Started process (PID=57280) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:19:45,358] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:19:45,358] {logging_mixin.py:109} INFO - [2024-06-30 06:19:45,358] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:19:46,651] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:19:46,661] {logging_mixin.py:109} INFO - [2024-06-30 06:19:46,659] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:19:46,674] {logging_mixin.py:109} INFO - [2024-06-30 06:19:46,674] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:19:46,683] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.329 seconds
+[2024-06-30 06:20:16,946] {processor.py:163} INFO - Started process (PID=57311) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:20:16,948] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:20:16,948] {logging_mixin.py:109} INFO - [2024-06-30 06:20:16,948] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:20:18,231] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:20:18,240] {logging_mixin.py:109} INFO - [2024-06-30 06:20:18,239] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:20:18,255] {logging_mixin.py:109} INFO - [2024-06-30 06:20:18,255] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:20:18,262] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.319 seconds
+[2024-06-30 06:20:48,522] {processor.py:163} INFO - Started process (PID=57342) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:20:48,523] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:20:48,524] {logging_mixin.py:109} INFO - [2024-06-30 06:20:48,523] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:20:49,763] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:20:49,772] {logging_mixin.py:109} INFO - [2024-06-30 06:20:49,770] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:20:49,785] {logging_mixin.py:109} INFO - [2024-06-30 06:20:49,785] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:20:49,794] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.274 seconds
+[2024-06-30 06:21:20,049] {processor.py:163} INFO - Started process (PID=57373) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:21:20,051] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:21:20,051] {logging_mixin.py:109} INFO - [2024-06-30 06:21:20,051] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:21:21,312] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:21:21,320] {logging_mixin.py:109} INFO - [2024-06-30 06:21:21,319] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:21:21,334] {logging_mixin.py:109} INFO - [2024-06-30 06:21:21,334] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:21:21,341] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.295 seconds
+[2024-06-30 06:21:51,588] {processor.py:163} INFO - Started process (PID=57404) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:21:51,589] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:21:51,590] {logging_mixin.py:109} INFO - [2024-06-30 06:21:51,590] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:21:52,906] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:21:52,915] {logging_mixin.py:109} INFO - [2024-06-30 06:21:52,913] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:21:52,928] {logging_mixin.py:109} INFO - [2024-06-30 06:21:52,928] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:21:52,936] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.352 seconds
+[2024-06-30 06:22:23,157] {processor.py:163} INFO - Started process (PID=57438) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:22:23,158] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:22:23,159] {logging_mixin.py:109} INFO - [2024-06-30 06:22:23,159] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:22:24,746] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:22:24,757] {logging_mixin.py:109} INFO - [2024-06-30 06:22:24,755] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:22:24,775] {logging_mixin.py:109} INFO - [2024-06-30 06:22:24,775] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:22:24,798] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.643 seconds
+[2024-06-30 06:22:55,076] {processor.py:163} INFO - Started process (PID=57471) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:22:55,083] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:22:55,084] {logging_mixin.py:109} INFO - [2024-06-30 06:22:55,083] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:22:56,945] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:22:56,954] {logging_mixin.py:109} INFO - [2024-06-30 06:22:56,953] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:22:56,970] {logging_mixin.py:109} INFO - [2024-06-30 06:22:56,970] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:22:57,007] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.933 seconds
+[2024-06-30 06:23:27,183] {processor.py:163} INFO - Started process (PID=57502) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:23:27,184] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:23:27,185] {logging_mixin.py:109} INFO - [2024-06-30 06:23:27,185] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:23:28,507] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:23:28,517] {logging_mixin.py:109} INFO - [2024-06-30 06:23:28,515] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:23:28,557] {logging_mixin.py:109} INFO - [2024-06-30 06:23:28,557] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:23:28,580] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.400 seconds
+[2024-06-30 06:23:58,855] {processor.py:163} INFO - Started process (PID=57536) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:23:58,856] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:23:58,857] {logging_mixin.py:109} INFO - [2024-06-30 06:23:58,857] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:24:00,312] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:24:00,321] {logging_mixin.py:109} INFO - [2024-06-30 06:24:00,319] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:24:00,334] {logging_mixin.py:109} INFO - [2024-06-30 06:24:00,334] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:24:00,342] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.490 seconds
+[2024-06-30 06:24:30,616] {processor.py:163} INFO - Started process (PID=57569) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:24:30,617] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:24:30,618] {logging_mixin.py:109} INFO - [2024-06-30 06:24:30,618] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:24:31,920] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:24:31,930] {logging_mixin.py:109} INFO - [2024-06-30 06:24:31,928] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:24:31,956] {logging_mixin.py:109} INFO - [2024-06-30 06:24:31,956] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:24:31,965] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.352 seconds
+[2024-06-30 06:25:02,210] {processor.py:163} INFO - Started process (PID=57600) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:25:02,211] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:25:02,211] {logging_mixin.py:109} INFO - [2024-06-30 06:25:02,211] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:25:03,588] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:25:03,597] {logging_mixin.py:109} INFO - [2024-06-30 06:25:03,596] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:25:03,611] {logging_mixin.py:109} INFO - [2024-06-30 06:25:03,611] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:25:03,619] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.412 seconds
+[2024-06-30 06:25:33,830] {processor.py:163} INFO - Started process (PID=57631) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:25:33,832] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:25:33,832] {logging_mixin.py:109} INFO - [2024-06-30 06:25:33,832] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:25:35,115] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:25:35,124] {logging_mixin.py:109} INFO - [2024-06-30 06:25:35,123] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:25:35,139] {logging_mixin.py:109} INFO - [2024-06-30 06:25:35,138] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:25:35,146] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.319 seconds
+[2024-06-30 06:26:05,371] {processor.py:163} INFO - Started process (PID=57662) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:26:05,372] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:26:05,373] {logging_mixin.py:109} INFO - [2024-06-30 06:26:05,373] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:26:06,759] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:26:06,768] {logging_mixin.py:109} INFO - [2024-06-30 06:26:06,767] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:26:06,782] {logging_mixin.py:109} INFO - [2024-06-30 06:26:06,782] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:26:06,789] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.422 seconds
+[2024-06-30 06:26:37,025] {processor.py:163} INFO - Started process (PID=57693) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:26:37,026] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:26:37,027] {logging_mixin.py:109} INFO - [2024-06-30 06:26:37,026] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:26:38,299] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:26:38,308] {logging_mixin.py:109} INFO - [2024-06-30 06:26:38,307] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:26:38,322] {logging_mixin.py:109} INFO - [2024-06-30 06:26:38,322] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:26:38,330] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.309 seconds
+[2024-06-30 06:27:08,579] {processor.py:163} INFO - Started process (PID=57724) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:27:08,581] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:27:08,582] {logging_mixin.py:109} INFO - [2024-06-30 06:27:08,581] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:27:10,106] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:27:10,116] {logging_mixin.py:109} INFO - [2024-06-30 06:27:10,114] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:27:10,130] {logging_mixin.py:109} INFO - [2024-06-30 06:27:10,130] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:27:10,138] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.562 seconds
+[2024-06-30 06:27:40,335] {processor.py:163} INFO - Started process (PID=57755) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:27:40,341] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:27:40,342] {logging_mixin.py:109} INFO - [2024-06-30 06:27:40,342] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:27:41,659] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:27:41,667] {logging_mixin.py:109} INFO - [2024-06-30 06:27:41,666] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:27:41,681] {logging_mixin.py:109} INFO - [2024-06-30 06:27:41,681] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:27:41,689] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.357 seconds
+[2024-06-30 06:28:11,878] {processor.py:163} INFO - Started process (PID=57786) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:28:11,879] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:28:11,880] {logging_mixin.py:109} INFO - [2024-06-30 06:28:11,880] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:28:13,278] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:28:13,287] {logging_mixin.py:109} INFO - [2024-06-30 06:28:13,285] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:28:13,301] {logging_mixin.py:109} INFO - [2024-06-30 06:28:13,301] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:28:13,308] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.433 seconds
+[2024-06-30 06:28:43,511] {processor.py:163} INFO - Started process (PID=57817) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:28:43,514] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:28:43,514] {logging_mixin.py:109} INFO - [2024-06-30 06:28:43,514] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:28:44,798] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:28:44,806] {logging_mixin.py:109} INFO - [2024-06-30 06:28:44,805] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:28:44,820] {logging_mixin.py:109} INFO - [2024-06-30 06:28:44,820] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:28:44,828] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.320 seconds
+[2024-06-30 06:29:15,020] {processor.py:163} INFO - Started process (PID=57848) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:29:15,021] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:29:15,022] {logging_mixin.py:109} INFO - [2024-06-30 06:29:15,021] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:29:16,587] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:29:16,598] {logging_mixin.py:109} INFO - [2024-06-30 06:29:16,596] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:29:16,613] {logging_mixin.py:109} INFO - [2024-06-30 06:29:16,613] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:29:16,622] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.605 seconds
+[2024-06-30 06:29:46,855] {processor.py:163} INFO - Started process (PID=57879) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:29:46,856] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:29:46,857] {logging_mixin.py:109} INFO - [2024-06-30 06:29:46,857] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:29:48,302] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:29:48,313] {logging_mixin.py:109} INFO - [2024-06-30 06:29:48,311] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:29:48,329] {logging_mixin.py:109} INFO - [2024-06-30 06:29:48,328] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:29:48,340] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.487 seconds
+[2024-06-30 06:30:18,581] {processor.py:163} INFO - Started process (PID=57910) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:30:18,582] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:30:18,583] {logging_mixin.py:109} INFO - [2024-06-30 06:30:18,583] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:30:20,321] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:30:20,330] {logging_mixin.py:109} INFO - [2024-06-30 06:30:20,328] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:30:20,346] {logging_mixin.py:109} INFO - [2024-06-30 06:30:20,346] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:30:20,356] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.778 seconds
+[2024-06-30 06:30:50,547] {processor.py:163} INFO - Started process (PID=57941) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:30:50,548] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:30:50,549] {logging_mixin.py:109} INFO - [2024-06-30 06:30:50,549] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:30:52,121] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:30:52,130] {logging_mixin.py:109} INFO - [2024-06-30 06:30:52,129] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:30:52,145] {logging_mixin.py:109} INFO - [2024-06-30 06:30:52,145] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:30:52,155] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.610 seconds
+[2024-06-30 06:31:22,360] {processor.py:163} INFO - Started process (PID=57972) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:31:22,361] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:31:22,361] {logging_mixin.py:109} INFO - [2024-06-30 06:31:22,361] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:31:23,982] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:31:23,991] {logging_mixin.py:109} INFO - [2024-06-30 06:31:23,990] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:31:24,007] {logging_mixin.py:109} INFO - [2024-06-30 06:31:24,007] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:31:24,017] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.660 seconds
+[2024-06-30 06:31:54,210] {processor.py:163} INFO - Started process (PID=58003) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:31:54,212] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:31:54,213] {logging_mixin.py:109} INFO - [2024-06-30 06:31:54,213] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:31:55,687] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:31:55,696] {logging_mixin.py:109} INFO - [2024-06-30 06:31:55,694] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:31:55,711] {logging_mixin.py:109} INFO - [2024-06-30 06:31:55,711] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:31:55,722] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.515 seconds
+[2024-06-30 06:32:25,924] {processor.py:163} INFO - Started process (PID=58034) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:32:25,925] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:32:25,926] {logging_mixin.py:109} INFO - [2024-06-30 06:32:25,926] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:32:29,266] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:32:29,287] {logging_mixin.py:109} INFO - [2024-06-30 06:32:29,285] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:32:29,317] {logging_mixin.py:109} INFO - [2024-06-30 06:32:29,317] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:32:29,331] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 3.410 seconds
+[2024-06-30 06:32:59,565] {processor.py:163} INFO - Started process (PID=58065) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:32:59,566] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:32:59,567] {logging_mixin.py:109} INFO - [2024-06-30 06:32:59,567] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:33:01,136] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:33:01,145] {logging_mixin.py:109} INFO - [2024-06-30 06:33:01,144] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:33:01,159] {logging_mixin.py:109} INFO - [2024-06-30 06:33:01,159] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:33:01,168] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.605 seconds
+[2024-06-30 06:33:31,373] {processor.py:163} INFO - Started process (PID=58096) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:33:31,374] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:33:31,375] {logging_mixin.py:109} INFO - [2024-06-30 06:33:31,375] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:33:32,859] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:33:32,869] {logging_mixin.py:109} INFO - [2024-06-30 06:33:32,867] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:33:32,885] {logging_mixin.py:109} INFO - [2024-06-30 06:33:32,884] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:33:32,895] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.525 seconds
+[2024-06-30 06:34:03,104] {processor.py:163} INFO - Started process (PID=58127) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:34:03,105] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:34:03,106] {logging_mixin.py:109} INFO - [2024-06-30 06:34:03,106] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:34:04,629] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:34:04,638] {logging_mixin.py:109} INFO - [2024-06-30 06:34:04,637] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:34:04,653] {logging_mixin.py:109} INFO - [2024-06-30 06:34:04,653] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:34:04,663] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.562 seconds
+[2024-06-30 06:34:34,876] {processor.py:163} INFO - Started process (PID=58158) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:34:34,877] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:34:34,877] {logging_mixin.py:109} INFO - [2024-06-30 06:34:34,877] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:34:36,219] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:34:36,229] {logging_mixin.py:109} INFO - [2024-06-30 06:34:36,227] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:34:36,244] {logging_mixin.py:109} INFO - [2024-06-30 06:34:36,244] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:34:36,254] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.381 seconds
+[2024-06-30 06:35:06,467] {processor.py:163} INFO - Started process (PID=58189) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:35:06,469] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:35:06,469] {logging_mixin.py:109} INFO - [2024-06-30 06:35:06,469] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:35:07,915] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:35:07,925] {logging_mixin.py:109} INFO - [2024-06-30 06:35:07,924] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:35:07,940] {logging_mixin.py:109} INFO - [2024-06-30 06:35:07,940] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:35:07,951] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.488 seconds
+[2024-06-30 06:35:38,188] {processor.py:163} INFO - Started process (PID=58220) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:35:38,189] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:35:38,190] {logging_mixin.py:109} INFO - [2024-06-30 06:35:38,189] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:35:42,136] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:35:42,166] {logging_mixin.py:109} INFO - [2024-06-30 06:35:42,164] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:35:42,201] {logging_mixin.py:109} INFO - [2024-06-30 06:35:42,201] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:35:42,219] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 4.033 seconds
+[2024-06-30 06:36:12,595] {processor.py:163} INFO - Started process (PID=58254) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:36:12,596] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:36:12,597] {logging_mixin.py:109} INFO - [2024-06-30 06:36:12,596] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:36:13,949] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:36:13,957] {logging_mixin.py:109} INFO - [2024-06-30 06:36:13,956] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:36:13,972] {logging_mixin.py:109} INFO - [2024-06-30 06:36:13,971] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:36:13,979] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.387 seconds
+[2024-06-30 06:36:44,218] {processor.py:163} INFO - Started process (PID=58287) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:36:44,219] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:36:44,219] {logging_mixin.py:109} INFO - [2024-06-30 06:36:44,219] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:36:45,570] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:36:45,579] {logging_mixin.py:109} INFO - [2024-06-30 06:36:45,578] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:36:45,593] {logging_mixin.py:109} INFO - [2024-06-30 06:36:45,593] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:36:45,603] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.389 seconds
+[2024-06-30 06:37:15,791] {processor.py:163} INFO - Started process (PID=58321) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:37:15,792] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:37:15,792] {logging_mixin.py:109} INFO - [2024-06-30 06:37:15,792] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:37:17,082] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:37:17,091] {logging_mixin.py:109} INFO - [2024-06-30 06:37:17,090] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:37:17,105] {logging_mixin.py:109} INFO - [2024-06-30 06:37:17,105] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:37:17,114] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.326 seconds
+[2024-06-30 06:37:47,371] {processor.py:163} INFO - Started process (PID=58354) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:37:47,372] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:37:47,373] {logging_mixin.py:109} INFO - [2024-06-30 06:37:47,373] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:37:48,774] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:37:48,786] {logging_mixin.py:109} INFO - [2024-06-30 06:37:48,785] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:37:48,800] {logging_mixin.py:109} INFO - [2024-06-30 06:37:48,800] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:37:48,809] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.441 seconds
+[2024-06-30 06:38:19,007] {processor.py:163} INFO - Started process (PID=58385) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:38:19,008] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:38:19,009] {logging_mixin.py:109} INFO - [2024-06-30 06:38:19,008] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:38:20,357] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:38:20,366] {logging_mixin.py:109} INFO - [2024-06-30 06:38:20,365] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:38:20,380] {logging_mixin.py:109} INFO - [2024-06-30 06:38:20,380] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:38:20,387] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.383 seconds
+[2024-06-30 06:38:50,607] {processor.py:163} INFO - Started process (PID=58416) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:38:50,608] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:38:50,609] {logging_mixin.py:109} INFO - [2024-06-30 06:38:50,609] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:38:51,989] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:38:51,999] {logging_mixin.py:109} INFO - [2024-06-30 06:38:51,997] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:38:52,014] {logging_mixin.py:109} INFO - [2024-06-30 06:38:52,014] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:38:52,022] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.419 seconds
+[2024-06-30 06:39:22,213] {processor.py:163} INFO - Started process (PID=58447) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:39:22,218] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:39:22,218] {logging_mixin.py:109} INFO - [2024-06-30 06:39:22,218] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:39:23,663] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:39:23,673] {logging_mixin.py:109} INFO - [2024-06-30 06:39:23,672] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:39:23,688] {logging_mixin.py:109} INFO - [2024-06-30 06:39:23,687] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:39:23,697] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.487 seconds
+[2024-06-30 06:39:53,902] {processor.py:163} INFO - Started process (PID=58478) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:39:53,907] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:39:53,908] {logging_mixin.py:109} INFO - [2024-06-30 06:39:53,908] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:39:55,290] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:39:55,299] {logging_mixin.py:109} INFO - [2024-06-30 06:39:55,298] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:39:55,315] {logging_mixin.py:109} INFO - [2024-06-30 06:39:55,315] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:39:55,322] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.424 seconds
+[2024-06-30 06:40:25,513] {processor.py:163} INFO - Started process (PID=58509) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:40:25,514] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:40:25,515] {logging_mixin.py:109} INFO - [2024-06-30 06:40:25,515] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:40:26,852] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:40:26,861] {logging_mixin.py:109} INFO - [2024-06-30 06:40:26,859] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:40:26,874] {logging_mixin.py:109} INFO - [2024-06-30 06:40:26,874] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:40:26,882] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.371 seconds
+[2024-06-30 06:40:57,106] {processor.py:163} INFO - Started process (PID=58540) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:40:57,108] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:40:57,108] {logging_mixin.py:109} INFO - [2024-06-30 06:40:57,108] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:40:58,464] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:40:58,473] {logging_mixin.py:109} INFO - [2024-06-30 06:40:58,471] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:40:58,487] {logging_mixin.py:109} INFO - [2024-06-30 06:40:58,487] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:40:58,495] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.392 seconds
+[2024-06-30 06:41:28,692] {processor.py:163} INFO - Started process (PID=58571) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:41:28,693] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:41:28,694] {logging_mixin.py:109} INFO - [2024-06-30 06:41:28,693] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:41:30,123] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:41:30,132] {logging_mixin.py:109} INFO - [2024-06-30 06:41:30,130] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:41:30,145] {logging_mixin.py:109} INFO - [2024-06-30 06:41:30,145] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:41:30,153] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.465 seconds
+[2024-06-30 06:42:00,397] {processor.py:163} INFO - Started process (PID=58602) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:42:00,398] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:42:00,398] {logging_mixin.py:109} INFO - [2024-06-30 06:42:00,398] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:42:01,746] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:42:01,774] {logging_mixin.py:109} INFO - [2024-06-30 06:42:01,773] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:42:01,806] {logging_mixin.py:109} INFO - [2024-06-30 06:42:01,806] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:42:01,838] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.444 seconds
+[2024-06-30 06:42:32,055] {processor.py:163} INFO - Started process (PID=58633) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:42:32,057] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:42:32,057] {logging_mixin.py:109} INFO - [2024-06-30 06:42:32,057] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:42:33,452] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:42:33,460] {logging_mixin.py:109} INFO - [2024-06-30 06:42:33,459] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:42:33,475] {logging_mixin.py:109} INFO - [2024-06-30 06:42:33,474] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:42:33,483] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.431 seconds
+[2024-06-30 06:43:03,679] {processor.py:163} INFO - Started process (PID=58664) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:43:03,680] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:43:03,681] {logging_mixin.py:109} INFO - [2024-06-30 06:43:03,680] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:43:04,959] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:43:04,968] {logging_mixin.py:109} INFO - [2024-06-30 06:43:04,967] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:43:04,984] {logging_mixin.py:109} INFO - [2024-06-30 06:43:04,984] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:43:04,993] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.318 seconds
+[2024-06-30 06:43:35,190] {processor.py:163} INFO - Started process (PID=58695) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:43:35,191] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:43:35,191] {logging_mixin.py:109} INFO - [2024-06-30 06:43:35,191] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:43:36,561] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:43:36,570] {logging_mixin.py:109} INFO - [2024-06-30 06:43:36,568] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:43:36,584] {logging_mixin.py:109} INFO - [2024-06-30 06:43:36,584] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:43:36,593] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.406 seconds
+[2024-06-30 06:44:06,807] {processor.py:163} INFO - Started process (PID=58726) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:44:06,812] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:44:06,812] {logging_mixin.py:109} INFO - [2024-06-30 06:44:06,812] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:44:08,600] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:44:08,619] {logging_mixin.py:109} INFO - [2024-06-30 06:44:08,617] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:44:08,653] {logging_mixin.py:109} INFO - [2024-06-30 06:44:08,653] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:44:08,700] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.889 seconds
+[2024-06-30 06:49:14,476] {processor.py:163} INFO - Started process (PID=58757) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:49:14,477] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:49:14,477] {logging_mixin.py:109} INFO - [2024-06-30 06:49:14,477] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:49:17,765] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:49:17,782] {logging_mixin.py:109} INFO - [2024-06-30 06:49:17,780] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:49:17,810] {logging_mixin.py:109} INFO - [2024-06-30 06:49:17,810] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:49:17,838] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 3.377 seconds
+[2024-06-30 06:49:48,330] {processor.py:163} INFO - Started process (PID=58810) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:49:48,332] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:49:48,332] {logging_mixin.py:109} INFO - [2024-06-30 06:49:48,332] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:49:49,649] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:49:49,658] {logging_mixin.py:109} INFO - [2024-06-30 06:49:49,657] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:49:49,672] {logging_mixin.py:109} INFO - [2024-06-30 06:49:49,672] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:49:49,680] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.353 seconds
+[2024-06-30 06:50:19,888] {processor.py:163} INFO - Started process (PID=58841) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:50:19,889] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:50:19,890] {logging_mixin.py:109} INFO - [2024-06-30 06:50:19,890] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:50:21,228] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:50:21,236] {logging_mixin.py:109} INFO - [2024-06-30 06:50:21,235] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:50:21,252] {logging_mixin.py:109} INFO - [2024-06-30 06:50:21,252] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:50:21,259] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.373 seconds
+[2024-06-30 06:50:51,507] {processor.py:163} INFO - Started process (PID=58872) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:50:51,521] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:50:51,521] {logging_mixin.py:109} INFO - [2024-06-30 06:50:51,521] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:50:53,503] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:50:53,513] {logging_mixin.py:109} INFO - [2024-06-30 06:50:53,511] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:50:53,561] {logging_mixin.py:109} INFO - [2024-06-30 06:50:53,561] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:50:53,576] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 2.072 seconds
+[2024-06-30 06:51:23,843] {processor.py:163} INFO - Started process (PID=58903) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:51:23,844] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:51:23,845] {logging_mixin.py:109} INFO - [2024-06-30 06:51:23,845] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:51:25,093] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:51:25,102] {logging_mixin.py:109} INFO - [2024-06-30 06:51:25,101] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:51:25,116] {logging_mixin.py:109} INFO - [2024-06-30 06:51:25,116] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:51:25,123] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.284 seconds
+[2024-06-30 06:51:55,412] {processor.py:163} INFO - Started process (PID=58934) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:51:55,414] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:51:55,415] {logging_mixin.py:109} INFO - [2024-06-30 06:51:55,414] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:51:56,728] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:51:56,736] {logging_mixin.py:109} INFO - [2024-06-30 06:51:56,735] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:51:56,749] {logging_mixin.py:109} INFO - [2024-06-30 06:51:56,749] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:51:56,758] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.351 seconds
+[2024-06-30 06:52:27,021] {processor.py:163} INFO - Started process (PID=58965) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:52:27,022] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:52:27,023] {logging_mixin.py:109} INFO - [2024-06-30 06:52:27,023] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:52:28,505] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:52:28,525] {logging_mixin.py:109} INFO - [2024-06-30 06:52:28,523] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:52:28,560] {logging_mixin.py:109} INFO - [2024-06-30 06:52:28,560] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:52:28,583] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.566 seconds
+[2024-06-30 06:52:58,899] {processor.py:163} INFO - Started process (PID=58996) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:52:58,904] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:52:58,904] {logging_mixin.py:109} INFO - [2024-06-30 06:52:58,904] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:53:00,269] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:53:00,278] {logging_mixin.py:109} INFO - [2024-06-30 06:53:00,277] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:53:00,293] {logging_mixin.py:109} INFO - [2024-06-30 06:53:00,293] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:53:00,302] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.407 seconds
+[2024-06-30 06:53:30,541] {processor.py:163} INFO - Started process (PID=59027) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:53:30,542] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:53:30,542] {logging_mixin.py:109} INFO - [2024-06-30 06:53:30,542] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:53:31,918] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:53:31,927] {logging_mixin.py:109} INFO - [2024-06-30 06:53:31,925] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:53:31,942] {logging_mixin.py:109} INFO - [2024-06-30 06:53:31,942] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:53:31,950] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.412 seconds
+[2024-06-30 06:54:02,164] {processor.py:163} INFO - Started process (PID=59058) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:54:02,165] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:54:02,166] {logging_mixin.py:109} INFO - [2024-06-30 06:54:02,166] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:54:03,601] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:54:03,609] {logging_mixin.py:109} INFO - [2024-06-30 06:54:03,608] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:54:03,624] {logging_mixin.py:109} INFO - [2024-06-30 06:54:03,624] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:54:03,632] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.472 seconds
+[2024-06-30 06:54:33,885] {processor.py:163} INFO - Started process (PID=59089) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:54:33,886] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:54:33,887] {logging_mixin.py:109} INFO - [2024-06-30 06:54:33,886] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:54:35,221] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:54:35,229] {logging_mixin.py:109} INFO - [2024-06-30 06:54:35,228] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:54:35,245] {logging_mixin.py:109} INFO - [2024-06-30 06:54:35,245] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:54:35,254] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.372 seconds
+[2024-06-30 06:55:05,493] {processor.py:163} INFO - Started process (PID=59120) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:55:05,494] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:55:05,495] {logging_mixin.py:109} INFO - [2024-06-30 06:55:05,495] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:55:06,788] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:55:06,798] {logging_mixin.py:109} INFO - [2024-06-30 06:55:06,797] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:55:06,813] {logging_mixin.py:109} INFO - [2024-06-30 06:55:06,813] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:55:06,821] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.331 seconds
+[2024-06-30 06:55:37,057] {processor.py:163} INFO - Started process (PID=59151) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:55:37,059] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:55:37,060] {logging_mixin.py:109} INFO - [2024-06-30 06:55:37,060] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:55:38,300] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:55:38,309] {logging_mixin.py:109} INFO - [2024-06-30 06:55:38,308] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:55:38,323] {logging_mixin.py:109} INFO - [2024-06-30 06:55:38,323] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:55:38,334] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.281 seconds
+[2024-06-30 06:56:08,577] {processor.py:163} INFO - Started process (PID=59182) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:56:08,578] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:56:08,578] {logging_mixin.py:109} INFO - [2024-06-30 06:56:08,578] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:56:10,045] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:56:10,053] {logging_mixin.py:109} INFO - [2024-06-30 06:56:10,052] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:56:10,067] {logging_mixin.py:109} INFO - [2024-06-30 06:56:10,067] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:56:10,075] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.501 seconds
+[2024-06-30 06:56:40,305] {processor.py:163} INFO - Started process (PID=59213) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:56:40,307] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:56:40,307] {logging_mixin.py:109} INFO - [2024-06-30 06:56:40,307] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:56:41,600] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:56:41,609] {logging_mixin.py:109} INFO - [2024-06-30 06:56:41,608] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:56:41,623] {logging_mixin.py:109} INFO - [2024-06-30 06:56:41,623] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:56:41,631] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.329 seconds
+[2024-06-30 06:57:11,856] {processor.py:163} INFO - Started process (PID=59244) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:57:11,857] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:57:11,860] {logging_mixin.py:109} INFO - [2024-06-30 06:57:11,860] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:57:13,340] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:57:13,348] {logging_mixin.py:109} INFO - [2024-06-30 06:57:13,347] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:57:13,362] {logging_mixin.py:109} INFO - [2024-06-30 06:57:13,362] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:57:13,369] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.516 seconds
+[2024-06-30 06:57:43,577] {processor.py:163} INFO - Started process (PID=59275) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:57:43,578] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:57:43,579] {logging_mixin.py:109} INFO - [2024-06-30 06:57:43,579] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:57:44,933] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:57:44,942] {logging_mixin.py:109} INFO - [2024-06-30 06:57:44,940] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:57:44,956] {logging_mixin.py:109} INFO - [2024-06-30 06:57:44,956] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:57:44,965] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.391 seconds
+[2024-06-30 06:58:15,188] {processor.py:163} INFO - Started process (PID=59306) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:58:15,189] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:58:15,190] {logging_mixin.py:109} INFO - [2024-06-30 06:58:15,190] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:58:16,437] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:58:16,446] {logging_mixin.py:109} INFO - [2024-06-30 06:58:16,444] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:58:16,459] {logging_mixin.py:109} INFO - [2024-06-30 06:58:16,459] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:58:16,473] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.288 seconds
+[2024-06-30 06:58:46,677] {processor.py:163} INFO - Started process (PID=59337) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:58:46,677] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:58:46,678] {logging_mixin.py:109} INFO - [2024-06-30 06:58:46,678] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:58:48,173] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:58:48,182] {logging_mixin.py:109} INFO - [2024-06-30 06:58:48,181] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:58:48,196] {logging_mixin.py:109} INFO - [2024-06-30 06:58:48,196] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:58:48,204] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.530 seconds
+[2024-06-30 06:59:18,411] {processor.py:163} INFO - Started process (PID=59368) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:59:18,412] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:59:18,412] {logging_mixin.py:109} INFO - [2024-06-30 06:59:18,412] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:59:19,714] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:59:19,722] {logging_mixin.py:109} INFO - [2024-06-30 06:59:19,721] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:59:19,736] {logging_mixin.py:109} INFO - [2024-06-30 06:59:19,736] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:59:19,749] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.341 seconds
+[2024-06-30 06:59:49,946] {processor.py:163} INFO - Started process (PID=59399) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:59:49,949] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 06:59:49,950] {logging_mixin.py:109} INFO - [2024-06-30 06:59:49,950] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:59:51,464] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 06:59:51,472] {logging_mixin.py:109} INFO - [2024-06-30 06:59:51,471] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 06:59:51,486] {logging_mixin.py:109} INFO - [2024-06-30 06:59:51,486] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 06:59:51,505] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.562 seconds
+[2024-06-30 07:00:21,725] {processor.py:163} INFO - Started process (PID=59430) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:00:21,726] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:00:21,727] {logging_mixin.py:109} INFO - [2024-06-30 07:00:21,727] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:00:23,134] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:00:23,142] {logging_mixin.py:109} INFO - [2024-06-30 07:00:23,141] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:00:23,156] {logging_mixin.py:109} INFO - [2024-06-30 07:00:23,156] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:00:23,164] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.441 seconds
+[2024-06-30 07:00:53,363] {processor.py:163} INFO - Started process (PID=59461) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:00:53,364] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:00:53,364] {logging_mixin.py:109} INFO - [2024-06-30 07:00:53,364] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:00:54,609] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:00:54,632] {logging_mixin.py:109} INFO - [2024-06-30 07:00:54,631] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:00:54,666] {logging_mixin.py:109} INFO - [2024-06-30 07:00:54,666] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:00:54,682] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.323 seconds
+[2024-06-30 07:01:24,927] {processor.py:163} INFO - Started process (PID=59492) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:01:24,928] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:01:24,929] {logging_mixin.py:109} INFO - [2024-06-30 07:01:24,929] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:01:26,315] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:01:26,324] {logging_mixin.py:109} INFO - [2024-06-30 07:01:26,323] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:01:26,338] {logging_mixin.py:109} INFO - [2024-06-30 07:01:26,338] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:01:26,346] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.422 seconds
+[2024-06-30 07:01:56,543] {processor.py:163} INFO - Started process (PID=59523) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:01:56,544] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:01:56,545] {logging_mixin.py:109} INFO - [2024-06-30 07:01:56,545] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:01:57,795] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:01:57,803] {logging_mixin.py:109} INFO - [2024-06-30 07:01:57,802] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:01:57,818] {logging_mixin.py:109} INFO - [2024-06-30 07:01:57,818] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:01:57,826] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.286 seconds
+[2024-06-30 07:02:28,062] {processor.py:163} INFO - Started process (PID=59554) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:02:28,064] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:02:28,064] {logging_mixin.py:109} INFO - [2024-06-30 07:02:28,064] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:02:29,430] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:02:29,439] {logging_mixin.py:109} INFO - [2024-06-30 07:02:29,438] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:02:29,452] {logging_mixin.py:109} INFO - [2024-06-30 07:02:29,452] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:02:29,461] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.401 seconds
+[2024-06-30 07:02:59,682] {processor.py:163} INFO - Started process (PID=59585) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:02:59,682] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:02:59,683] {logging_mixin.py:109} INFO - [2024-06-30 07:02:59,683] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:03:01,529] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:03:01,537] {logging_mixin.py:109} INFO - [2024-06-30 07:03:01,536] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:03:01,553] {logging_mixin.py:109} INFO - [2024-06-30 07:03:01,553] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:03:01,565] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.888 seconds
+[2024-06-30 07:03:31,880] {processor.py:163} INFO - Started process (PID=59624) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:03:31,882] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:03:31,882] {logging_mixin.py:109} INFO - [2024-06-30 07:03:31,882] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:03:33,977] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:03:33,996] {logging_mixin.py:109} INFO - [2024-06-30 07:03:33,995] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:03:34,033] {logging_mixin.py:109} INFO - [2024-06-30 07:03:34,032] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:03:34,048] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 2.172 seconds
+[2024-06-30 07:04:04,351] {processor.py:163} INFO - Started process (PID=59661) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:04:04,353] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:04:04,354] {logging_mixin.py:109} INFO - [2024-06-30 07:04:04,353] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:04:05,750] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:04:05,759] {logging_mixin.py:109} INFO - [2024-06-30 07:04:05,758] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:04:05,775] {logging_mixin.py:109} INFO - [2024-06-30 07:04:05,775] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:04:05,783] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.435 seconds
+[2024-06-30 07:04:36,044] {processor.py:163} INFO - Started process (PID=59693) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:04:36,045] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:04:36,046] {logging_mixin.py:109} INFO - [2024-06-30 07:04:36,046] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:04:37,512] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:04:37,521] {logging_mixin.py:109} INFO - [2024-06-30 07:04:37,520] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:04:37,537] {logging_mixin.py:109} INFO - [2024-06-30 07:04:37,537] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:04:37,548] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.507 seconds
+[2024-06-30 07:05:07,816] {processor.py:163} INFO - Started process (PID=59724) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:05:07,817] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:05:07,818] {logging_mixin.py:109} INFO - [2024-06-30 07:05:07,818] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:05:10,011] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:05:10,020] {logging_mixin.py:109} INFO - [2024-06-30 07:05:10,019] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:05:10,033] {logging_mixin.py:109} INFO - [2024-06-30 07:05:10,033] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:05:10,054] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 2.241 seconds
+[2024-06-30 07:05:40,275] {processor.py:163} INFO - Started process (PID=59755) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:05:40,281] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:05:40,281] {logging_mixin.py:109} INFO - [2024-06-30 07:05:40,281] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:05:41,704] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:05:41,713] {logging_mixin.py:109} INFO - [2024-06-30 07:05:41,711] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:05:41,728] {logging_mixin.py:109} INFO - [2024-06-30 07:05:41,728] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:05:41,737] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.469 seconds
+[2024-06-30 07:06:12,101] {processor.py:163} INFO - Started process (PID=59786) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:06:12,103] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:06:12,104] {logging_mixin.py:109} INFO - [2024-06-30 07:06:12,104] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:06:14,829] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:06:14,857] {logging_mixin.py:109} INFO - [2024-06-30 07:06:14,856] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:06:14,895] {logging_mixin.py:109} INFO - [2024-06-30 07:06:14,895] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:06:14,914] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 2.818 seconds
+[2024-06-30 07:06:45,241] {processor.py:163} INFO - Started process (PID=59817) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:06:45,243] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:06:45,243] {logging_mixin.py:109} INFO - [2024-06-30 07:06:45,243] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:06:46,939] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:06:46,948] {logging_mixin.py:109} INFO - [2024-06-30 07:06:46,946] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:06:46,965] {logging_mixin.py:109} INFO - [2024-06-30 07:06:46,965] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:06:46,976] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.740 seconds
+[2024-06-30 07:07:17,230] {processor.py:163} INFO - Started process (PID=59848) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:07:17,231] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:07:17,231] {logging_mixin.py:109} INFO - [2024-06-30 07:07:17,231] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:07:18,890] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:07:18,914] {logging_mixin.py:109} INFO - [2024-06-30 07:07:18,913] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:07:18,948] {logging_mixin.py:109} INFO - [2024-06-30 07:07:18,948] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:07:19,083] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.857 seconds
+[2024-06-30 07:07:49,485] {processor.py:163} INFO - Started process (PID=59879) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:07:49,487] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:07:49,488] {logging_mixin.py:109} INFO - [2024-06-30 07:07:49,487] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:07:51,651] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:07:51,661] {logging_mixin.py:109} INFO - [2024-06-30 07:07:51,659] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:07:51,675] {logging_mixin.py:109} INFO - [2024-06-30 07:07:51,675] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:07:51,682] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 2.200 seconds
+[2024-06-30 07:08:21,950] {processor.py:163} INFO - Started process (PID=59910) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:08:21,951] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:08:21,952] {logging_mixin.py:109} INFO - [2024-06-30 07:08:21,952] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:08:23,377] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:08:23,387] {logging_mixin.py:109} INFO - [2024-06-30 07:08:23,385] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:08:23,401] {logging_mixin.py:109} INFO - [2024-06-30 07:08:23,401] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:08:23,408] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.460 seconds
+[2024-06-30 07:08:53,665] {processor.py:163} INFO - Started process (PID=59941) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:08:53,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:08:53,668] {logging_mixin.py:109} INFO - [2024-06-30 07:08:53,668] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:08:55,047] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:08:55,057] {logging_mixin.py:109} INFO - [2024-06-30 07:08:55,055] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:08:55,073] {logging_mixin.py:109} INFO - [2024-06-30 07:08:55,073] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:08:55,082] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.420 seconds
+[2024-06-30 07:09:25,363] {processor.py:163} INFO - Started process (PID=59972) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:09:25,382] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:09:25,382] {logging_mixin.py:109} INFO - [2024-06-30 07:09:25,382] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:09:26,869] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:09:26,878] {logging_mixin.py:109} INFO - [2024-06-30 07:09:26,877] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:09:26,892] {logging_mixin.py:109} INFO - [2024-06-30 07:09:26,892] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:09:26,902] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.541 seconds
+[2024-06-30 07:09:57,249] {processor.py:163} INFO - Started process (PID=60003) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:09:57,251] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:09:57,252] {logging_mixin.py:109} INFO - [2024-06-30 07:09:57,251] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:09:58,602] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:09:58,610] {logging_mixin.py:109} INFO - [2024-06-30 07:09:58,609] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:09:58,627] {logging_mixin.py:109} INFO - [2024-06-30 07:09:58,627] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:09:58,635] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.392 seconds
+[2024-06-30 07:10:28,898] {processor.py:163} INFO - Started process (PID=60034) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:10:28,899] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:10:28,900] {logging_mixin.py:109} INFO - [2024-06-30 07:10:28,900] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:10:30,322] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:10:30,338] {logging_mixin.py:109} INFO - [2024-06-30 07:10:30,335] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:10:30,355] {logging_mixin.py:109} INFO - [2024-06-30 07:10:30,355] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:10:30,367] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.473 seconds
+[2024-06-30 07:11:00,656] {processor.py:163} INFO - Started process (PID=60065) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:11:00,658] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:11:00,659] {logging_mixin.py:109} INFO - [2024-06-30 07:11:00,659] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:11:02,081] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:11:02,090] {logging_mixin.py:109} INFO - [2024-06-30 07:11:02,089] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:11:02,104] {logging_mixin.py:109} INFO - [2024-06-30 07:11:02,104] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:11:02,112] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.460 seconds
+[2024-06-30 07:11:32,447] {processor.py:163} INFO - Started process (PID=60096) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:11:32,448] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:11:32,448] {logging_mixin.py:109} INFO - [2024-06-30 07:11:32,448] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:11:34,231] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:11:34,241] {logging_mixin.py:109} INFO - [2024-06-30 07:11:34,240] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:11:34,256] {logging_mixin.py:109} INFO - [2024-06-30 07:11:34,256] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:11:34,264] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.822 seconds
+[2024-06-30 07:12:04,601] {processor.py:163} INFO - Started process (PID=60127) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:12:04,603] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:12:04,604] {logging_mixin.py:109} INFO - [2024-06-30 07:12:04,604] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:12:06,043] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:12:06,056] {logging_mixin.py:109} INFO - [2024-06-30 07:12:06,055] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:12:06,080] {logging_mixin.py:109} INFO - [2024-06-30 07:12:06,080] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:12:06,106] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.511 seconds
+[2024-06-30 07:12:36,409] {processor.py:163} INFO - Started process (PID=60158) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:12:36,411] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:12:36,411] {logging_mixin.py:109} INFO - [2024-06-30 07:12:36,411] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:12:37,695] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:12:37,705] {logging_mixin.py:109} INFO - [2024-06-30 07:12:37,703] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:12:37,719] {logging_mixin.py:109} INFO - [2024-06-30 07:12:37,719] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:12:37,727] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.321 seconds
+[2024-06-30 07:13:08,066] {processor.py:163} INFO - Started process (PID=60189) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:13:08,067] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:13:08,068] {logging_mixin.py:109} INFO - [2024-06-30 07:13:08,068] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:13:09,363] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:13:09,372] {logging_mixin.py:109} INFO - [2024-06-30 07:13:09,371] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:13:09,387] {logging_mixin.py:109} INFO - [2024-06-30 07:13:09,387] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:13:09,398] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.337 seconds
+[2024-06-30 07:13:39,645] {processor.py:163} INFO - Started process (PID=60220) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:13:39,651] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:13:39,651] {logging_mixin.py:109} INFO - [2024-06-30 07:13:39,651] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:13:41,033] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:13:41,043] {logging_mixin.py:109} INFO - [2024-06-30 07:13:41,041] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:13:41,058] {logging_mixin.py:109} INFO - [2024-06-30 07:13:41,058] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:13:41,065] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.423 seconds
+[2024-06-30 07:14:11,322] {processor.py:163} INFO - Started process (PID=60251) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:14:11,327] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:14:11,328] {logging_mixin.py:109} INFO - [2024-06-30 07:14:11,328] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:14:12,582] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:14:12,591] {logging_mixin.py:109} INFO - [2024-06-30 07:14:12,590] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:14:12,605] {logging_mixin.py:109} INFO - [2024-06-30 07:14:12,605] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:14:12,614] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.304 seconds
+[2024-06-30 07:14:42,894] {processor.py:163} INFO - Started process (PID=60282) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:14:42,895] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:14:42,896] {logging_mixin.py:109} INFO - [2024-06-30 07:14:42,896] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:14:44,282] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:14:44,291] {logging_mixin.py:109} INFO - [2024-06-30 07:14:44,289] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:14:44,306] {logging_mixin.py:109} INFO - [2024-06-30 07:14:44,306] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:14:44,313] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.423 seconds
+[2024-06-30 07:15:14,567] {processor.py:163} INFO - Started process (PID=60313) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:15:14,569] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:15:14,570] {logging_mixin.py:109} INFO - [2024-06-30 07:15:14,569] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:15:15,943] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:15:15,952] {logging_mixin.py:109} INFO - [2024-06-30 07:15:15,950] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:15:15,966] {logging_mixin.py:109} INFO - [2024-06-30 07:15:15,966] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:15:15,974] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.413 seconds
+[2024-06-30 07:15:46,275] {processor.py:163} INFO - Started process (PID=60344) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:15:46,276] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:15:46,276] {logging_mixin.py:109} INFO - [2024-06-30 07:15:46,276] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:15:47,583] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:15:47,592] {logging_mixin.py:109} INFO - [2024-06-30 07:15:47,590] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:15:47,606] {logging_mixin.py:109} INFO - [2024-06-30 07:15:47,606] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:15:47,618] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.346 seconds
+[2024-06-30 07:16:17,947] {processor.py:163} INFO - Started process (PID=60378) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:16:17,947] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:16:17,948] {logging_mixin.py:109} INFO - [2024-06-30 07:16:17,948] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:16:19,263] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:16:19,273] {logging_mixin.py:109} INFO - [2024-06-30 07:16:19,271] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:16:19,287] {logging_mixin.py:109} INFO - [2024-06-30 07:16:19,287] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:16:19,295] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.351 seconds
+[2024-06-30 07:16:49,593] {processor.py:163} INFO - Started process (PID=60414) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:16:49,596] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:16:49,597] {logging_mixin.py:109} INFO - [2024-06-30 07:16:49,597] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:16:50,996] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:16:51,005] {logging_mixin.py:109} INFO - [2024-06-30 07:16:51,004] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:16:51,019] {logging_mixin.py:109} INFO - [2024-06-30 07:16:51,019] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:16:51,027] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.437 seconds
+[2024-06-30 07:17:21,324] {processor.py:163} INFO - Started process (PID=60447) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:17:21,325] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:17:21,326] {logging_mixin.py:109} INFO - [2024-06-30 07:17:21,326] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:17:22,757] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:17:22,780] {logging_mixin.py:109} INFO - [2024-06-30 07:17:22,765] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:17:22,795] {logging_mixin.py:109} INFO - [2024-06-30 07:17:22,795] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:17:22,804] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.483 seconds
+[2024-06-30 07:17:53,040] {processor.py:163} INFO - Started process (PID=60478) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:17:53,046] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:17:53,047] {logging_mixin.py:109} INFO - [2024-06-30 07:17:53,047] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:17:54,346] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:17:54,363] {logging_mixin.py:109} INFO - [2024-06-30 07:17:54,361] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:17:54,379] {logging_mixin.py:109} INFO - [2024-06-30 07:17:54,379] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:17:54,386] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.351 seconds
+[2024-06-30 07:18:24,620] {processor.py:163} INFO - Started process (PID=60509) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:18:24,621] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:18:24,622] {logging_mixin.py:109} INFO - [2024-06-30 07:18:24,621] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:18:25,901] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:18:25,909] {logging_mixin.py:109} INFO - [2024-06-30 07:18:25,908] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:18:25,923] {logging_mixin.py:109} INFO - [2024-06-30 07:18:25,923] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:18:25,932] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.315 seconds
+[2024-06-30 07:18:56,173] {processor.py:163} INFO - Started process (PID=60540) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:18:56,176] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:18:56,176] {logging_mixin.py:109} INFO - [2024-06-30 07:18:56,176] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:18:57,389] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:18:57,398] {logging_mixin.py:109} INFO - [2024-06-30 07:18:57,396] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:18:57,411] {logging_mixin.py:109} INFO - [2024-06-30 07:18:57,411] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:18:57,421] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.253 seconds
+[2024-06-30 07:19:27,682] {processor.py:163} INFO - Started process (PID=60571) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:19:27,683] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:19:27,684] {logging_mixin.py:109} INFO - [2024-06-30 07:19:27,684] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:19:28,904] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:19:28,914] {logging_mixin.py:109} INFO - [2024-06-30 07:19:28,912] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:19:28,927] {logging_mixin.py:109} INFO - [2024-06-30 07:19:28,927] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:19:28,943] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.264 seconds
+[2024-06-30 07:19:59,160] {processor.py:163} INFO - Started process (PID=60602) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:19:59,161] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:19:59,162] {logging_mixin.py:109} INFO - [2024-06-30 07:19:59,161] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:20:00,463] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:20:00,472] {logging_mixin.py:109} INFO - [2024-06-30 07:20:00,471] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:20:00,487] {logging_mixin.py:109} INFO - [2024-06-30 07:20:00,487] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:20:00,498] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.341 seconds
+[2024-06-30 07:20:30,742] {processor.py:163} INFO - Started process (PID=60633) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:20:30,744] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:20:30,745] {logging_mixin.py:109} INFO - [2024-06-30 07:20:30,745] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:20:32,037] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:20:32,046] {logging_mixin.py:109} INFO - [2024-06-30 07:20:32,045] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:20:32,060] {logging_mixin.py:109} INFO - [2024-06-30 07:20:32,060] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:20:32,068] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.329 seconds
+[2024-06-30 07:21:02,312] {processor.py:163} INFO - Started process (PID=60664) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:21:02,315] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:21:02,316] {logging_mixin.py:109} INFO - [2024-06-30 07:21:02,315] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:21:03,574] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:21:03,584] {logging_mixin.py:109} INFO - [2024-06-30 07:21:03,582] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:21:03,598] {logging_mixin.py:109} INFO - [2024-06-30 07:21:03,598] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:21:03,608] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.299 seconds
+[2024-06-30 07:21:33,877] {processor.py:163} INFO - Started process (PID=60695) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:21:33,878] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:21:33,879] {logging_mixin.py:109} INFO - [2024-06-30 07:21:33,879] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:21:35,171] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:21:35,180] {logging_mixin.py:109} INFO - [2024-06-30 07:21:35,179] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:21:35,194] {logging_mixin.py:109} INFO - [2024-06-30 07:21:35,194] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:21:35,202] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.328 seconds
+[2024-06-30 07:22:05,431] {processor.py:163} INFO - Started process (PID=60726) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:22:05,432] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:22:05,433] {logging_mixin.py:109} INFO - [2024-06-30 07:22:05,433] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:22:06,783] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:22:06,791] {logging_mixin.py:109} INFO - [2024-06-30 07:22:06,790] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:22:06,804] {logging_mixin.py:109} INFO - [2024-06-30 07:22:06,804] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:22:06,813] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.386 seconds
+[2024-06-30 07:22:37,016] {processor.py:163} INFO - Started process (PID=60757) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:22:37,017] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:22:37,018] {logging_mixin.py:109} INFO - [2024-06-30 07:22:37,018] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:22:38,306] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:22:38,315] {logging_mixin.py:109} INFO - [2024-06-30 07:22:38,313] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:22:38,331] {logging_mixin.py:109} INFO - [2024-06-30 07:22:38,331] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:22:38,339] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.326 seconds
+[2024-06-30 07:23:08,559] {processor.py:163} INFO - Started process (PID=60788) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:23:08,561] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:23:08,562] {logging_mixin.py:109} INFO - [2024-06-30 07:23:08,561] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:23:09,843] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:23:09,852] {logging_mixin.py:109} INFO - [2024-06-30 07:23:09,850] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:23:09,866] {logging_mixin.py:109} INFO - [2024-06-30 07:23:09,866] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:23:09,879] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.324 seconds
+[2024-06-30 07:23:40,105] {processor.py:163} INFO - Started process (PID=60819) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:23:40,105] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:23:40,106] {logging_mixin.py:109} INFO - [2024-06-30 07:23:40,106] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:23:41,406] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:23:41,414] {logging_mixin.py:109} INFO - [2024-06-30 07:23:41,413] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:23:41,429] {logging_mixin.py:109} INFO - [2024-06-30 07:23:41,429] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:23:41,440] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.339 seconds
+[2024-06-30 07:24:11,654] {processor.py:163} INFO - Started process (PID=60850) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:24:11,656] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:24:11,657] {logging_mixin.py:109} INFO - [2024-06-30 07:24:11,657] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:24:12,932] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:24:12,940] {logging_mixin.py:109} INFO - [2024-06-30 07:24:12,939] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:24:12,955] {logging_mixin.py:109} INFO - [2024-06-30 07:24:12,955] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:24:12,963] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.312 seconds
+[2024-06-30 07:24:43,174] {processor.py:163} INFO - Started process (PID=60881) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:24:43,175] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:24:43,176] {logging_mixin.py:109} INFO - [2024-06-30 07:24:43,176] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:24:44,727] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:24:44,736] {logging_mixin.py:109} INFO - [2024-06-30 07:24:44,734] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:24:44,749] {logging_mixin.py:109} INFO - [2024-06-30 07:24:44,749] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:24:44,757] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.586 seconds
+[2024-06-30 07:25:14,956] {processor.py:163} INFO - Started process (PID=60912) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:25:14,957] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:25:14,957] {logging_mixin.py:109} INFO - [2024-06-30 07:25:14,957] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:25:16,234] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:25:16,243] {logging_mixin.py:109} INFO - [2024-06-30 07:25:16,242] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:25:16,257] {logging_mixin.py:109} INFO - [2024-06-30 07:25:16,256] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:25:16,265] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.312 seconds
+[2024-06-30 07:25:46,463] {processor.py:163} INFO - Started process (PID=60943) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:25:46,464] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:25:46,465] {logging_mixin.py:109} INFO - [2024-06-30 07:25:46,465] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:25:47,833] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:25:47,842] {logging_mixin.py:109} INFO - [2024-06-30 07:25:47,840] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:25:47,856] {logging_mixin.py:109} INFO - [2024-06-30 07:25:47,856] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:25:47,864] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.404 seconds
+[2024-06-30 07:26:18,066] {processor.py:163} INFO - Started process (PID=60974) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:26:18,067] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:26:18,068] {logging_mixin.py:109} INFO - [2024-06-30 07:26:18,068] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:26:19,401] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:26:19,410] {logging_mixin.py:109} INFO - [2024-06-30 07:26:19,408] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:26:19,424] {logging_mixin.py:109} INFO - [2024-06-30 07:26:19,424] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:26:19,432] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.369 seconds
+[2024-06-30 07:26:49,637] {processor.py:163} INFO - Started process (PID=61005) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:26:49,642] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:26:49,642] {logging_mixin.py:109} INFO - [2024-06-30 07:26:49,642] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:26:50,942] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:26:50,962] {logging_mixin.py:109} INFO - [2024-06-30 07:26:50,950] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:26:50,996] {logging_mixin.py:109} INFO - [2024-06-30 07:26:50,996] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:26:51,013] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.378 seconds
+[2024-06-30 07:27:21,288] {processor.py:163} INFO - Started process (PID=61036) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:27:21,290] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:27:21,291] {logging_mixin.py:109} INFO - [2024-06-30 07:27:21,291] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:27:22,571] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:27:22,580] {logging_mixin.py:109} INFO - [2024-06-30 07:27:22,579] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:27:22,594] {logging_mixin.py:109} INFO - [2024-06-30 07:27:22,594] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:27:22,603] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.319 seconds
+[2024-06-30 07:27:52,851] {processor.py:163} INFO - Started process (PID=61067) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:27:52,852] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:27:52,853] {logging_mixin.py:109} INFO - [2024-06-30 07:27:52,853] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:27:54,112] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:27:54,121] {logging_mixin.py:109} INFO - [2024-06-30 07:27:54,120] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:27:54,135] {logging_mixin.py:109} INFO - [2024-06-30 07:27:54,135] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:27:54,143] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.294 seconds
+[2024-06-30 07:28:24,403] {processor.py:163} INFO - Started process (PID=61098) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:28:24,404] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:28:24,405] {logging_mixin.py:109} INFO - [2024-06-30 07:28:24,405] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:28:25,616] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:28:25,625] {logging_mixin.py:109} INFO - [2024-06-30 07:28:25,624] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:28:25,639] {logging_mixin.py:109} INFO - [2024-06-30 07:28:25,639] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:28:25,648] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.248 seconds
+[2024-06-30 07:28:55,911] {processor.py:163} INFO - Started process (PID=61129) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:28:55,913] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:28:55,913] {logging_mixin.py:109} INFO - [2024-06-30 07:28:55,913] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:28:57,190] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:28:57,199] {logging_mixin.py:109} INFO - [2024-06-30 07:28:57,198] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:28:57,214] {logging_mixin.py:109} INFO - [2024-06-30 07:28:57,214] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:28:57,223] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.316 seconds
+[2024-06-30 07:29:27,554] {processor.py:163} INFO - Started process (PID=61160) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:29:27,555] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:29:27,555] {logging_mixin.py:109} INFO - [2024-06-30 07:29:27,555] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:29:28,823] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:29:28,833] {logging_mixin.py:109} INFO - [2024-06-30 07:29:28,832] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:29:28,847] {logging_mixin.py:109} INFO - [2024-06-30 07:29:28,847] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:29:28,855] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.304 seconds
+[2024-06-30 07:29:59,113] {processor.py:163} INFO - Started process (PID=61191) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:29:59,115] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:29:59,116] {logging_mixin.py:109} INFO - [2024-06-30 07:29:59,116] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:30:00,348] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:30:00,358] {logging_mixin.py:109} INFO - [2024-06-30 07:30:00,356] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:30:00,371] {logging_mixin.py:109} INFO - [2024-06-30 07:30:00,371] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:30:00,379] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.272 seconds
+[2024-06-30 07:30:30,625] {processor.py:163} INFO - Started process (PID=61222) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:30:30,626] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:30:30,626] {logging_mixin.py:109} INFO - [2024-06-30 07:30:30,626] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:30:31,982] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:30:31,990] {logging_mixin.py:109} INFO - [2024-06-30 07:30:31,989] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:30:32,004] {logging_mixin.py:109} INFO - [2024-06-30 07:30:32,004] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:30:32,026] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.404 seconds
+[2024-06-30 07:31:02,299] {processor.py:163} INFO - Started process (PID=61253) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:31:02,300] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:31:02,301] {logging_mixin.py:109} INFO - [2024-06-30 07:31:02,301] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:31:03,557] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:31:03,566] {logging_mixin.py:109} INFO - [2024-06-30 07:31:03,565] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:31:03,580] {logging_mixin.py:109} INFO - [2024-06-30 07:31:03,579] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:31:03,588] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.293 seconds
+[2024-06-30 07:31:33,867] {processor.py:163} INFO - Started process (PID=61284) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:31:33,868] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:31:33,869] {logging_mixin.py:109} INFO - [2024-06-30 07:31:33,869] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:31:35,132] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:31:35,142] {logging_mixin.py:109} INFO - [2024-06-30 07:31:35,140] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:31:35,157] {logging_mixin.py:109} INFO - [2024-06-30 07:31:35,156] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:31:35,165] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.302 seconds
+[2024-06-30 07:32:05,397] {processor.py:163} INFO - Started process (PID=61318) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:32:05,398] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:32:05,399] {logging_mixin.py:109} INFO - [2024-06-30 07:32:05,399] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:32:06,683] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:32:06,692] {logging_mixin.py:109} INFO - [2024-06-30 07:32:06,690] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:32:06,705] {logging_mixin.py:109} INFO - [2024-06-30 07:32:06,705] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:32:06,712] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.317 seconds
+[2024-06-30 07:32:36,971] {processor.py:163} INFO - Started process (PID=61354) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:32:36,972] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:32:36,973] {logging_mixin.py:109} INFO - [2024-06-30 07:32:36,973] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:32:38,266] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:32:38,274] {logging_mixin.py:109} INFO - [2024-06-30 07:32:38,273] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:32:38,288] {logging_mixin.py:109} INFO - [2024-06-30 07:32:38,288] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:32:38,295] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.327 seconds
+[2024-06-30 07:33:08,576] {processor.py:163} INFO - Started process (PID=61387) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:33:08,577] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:33:08,578] {logging_mixin.py:109} INFO - [2024-06-30 07:33:08,578] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:33:09,852] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:33:09,861] {logging_mixin.py:109} INFO - [2024-06-30 07:33:09,859] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:33:09,874] {logging_mixin.py:109} INFO - [2024-06-30 07:33:09,874] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:33:09,883] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.310 seconds
+[2024-06-30 07:33:40,093] {processor.py:163} INFO - Started process (PID=61418) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:33:40,094] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:33:40,094] {logging_mixin.py:109} INFO - [2024-06-30 07:33:40,094] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:33:41,503] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:33:41,512] {logging_mixin.py:109} INFO - [2024-06-30 07:33:41,510] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:33:41,526] {logging_mixin.py:109} INFO - [2024-06-30 07:33:41,526] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:33:41,533] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.443 seconds
+[2024-06-30 07:34:11,756] {processor.py:163} INFO - Started process (PID=61449) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:34:11,757] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:34:11,758] {logging_mixin.py:109} INFO - [2024-06-30 07:34:11,758] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:34:13,218] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:34:13,227] {logging_mixin.py:109} INFO - [2024-06-30 07:34:13,226] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:34:13,243] {logging_mixin.py:109} INFO - [2024-06-30 07:34:13,243] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:34:13,250] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.497 seconds
+[2024-06-30 07:34:43,464] {processor.py:163} INFO - Started process (PID=61480) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:34:43,465] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:34:43,466] {logging_mixin.py:109} INFO - [2024-06-30 07:34:43,466] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:34:44,877] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:34:44,885] {logging_mixin.py:109} INFO - [2024-06-30 07:34:44,884] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:34:44,899] {logging_mixin.py:109} INFO - [2024-06-30 07:34:44,899] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:34:44,907] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.445 seconds
+[2024-06-30 07:35:15,106] {processor.py:163} INFO - Started process (PID=61511) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:35:15,107] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:35:15,108] {logging_mixin.py:109} INFO - [2024-06-30 07:35:15,108] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:35:16,629] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:35:16,640] {logging_mixin.py:109} INFO - [2024-06-30 07:35:16,639] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:35:16,656] {logging_mixin.py:109} INFO - [2024-06-30 07:35:16,655] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:35:16,665] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.561 seconds
+[2024-06-30 07:35:46,874] {processor.py:163} INFO - Started process (PID=61542) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:35:46,875] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:35:46,875] {logging_mixin.py:109} INFO - [2024-06-30 07:35:46,875] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:35:48,228] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:35:48,237] {logging_mixin.py:109} INFO - [2024-06-30 07:35:48,236] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:35:48,251] {logging_mixin.py:109} INFO - [2024-06-30 07:35:48,251] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:35:48,259] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.388 seconds
+[2024-06-30 07:36:18,456] {processor.py:163} INFO - Started process (PID=61573) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:36:18,457] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:36:18,458] {logging_mixin.py:109} INFO - [2024-06-30 07:36:18,458] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:36:19,888] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:36:19,897] {logging_mixin.py:109} INFO - [2024-06-30 07:36:19,896] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:36:19,911] {logging_mixin.py:109} INFO - [2024-06-30 07:36:19,911] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:36:19,918] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.465 seconds
+[2024-06-30 07:36:50,117] {processor.py:163} INFO - Started process (PID=61604) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:36:50,118] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:36:50,119] {logging_mixin.py:109} INFO - [2024-06-30 07:36:50,119] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:36:51,533] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:36:51,543] {logging_mixin.py:109} INFO - [2024-06-30 07:36:51,541] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:36:51,561] {logging_mixin.py:109} INFO - [2024-06-30 07:36:51,561] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:36:51,569] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.455 seconds
+[2024-06-30 07:37:21,792] {processor.py:163} INFO - Started process (PID=61635) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:37:21,794] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:37:21,795] {logging_mixin.py:109} INFO - [2024-06-30 07:37:21,794] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:37:23,241] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:37:23,251] {logging_mixin.py:109} INFO - [2024-06-30 07:37:23,249] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:37:23,266] {logging_mixin.py:109} INFO - [2024-06-30 07:37:23,266] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:37:23,274] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.485 seconds
+[2024-06-30 07:37:53,488] {processor.py:163} INFO - Started process (PID=61666) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:37:53,489] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:37:53,490] {logging_mixin.py:109} INFO - [2024-06-30 07:37:53,490] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:37:54,829] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:37:54,845] {logging_mixin.py:109} INFO - [2024-06-30 07:37:54,836] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:37:54,875] {logging_mixin.py:109} INFO - [2024-06-30 07:37:54,874] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:37:54,886] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.402 seconds
+[2024-06-30 07:38:25,133] {processor.py:163} INFO - Started process (PID=61697) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:38:25,134] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:38:25,135] {logging_mixin.py:109} INFO - [2024-06-30 07:38:25,134] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:38:26,493] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:38:26,501] {logging_mixin.py:109} INFO - [2024-06-30 07:38:26,500] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:38:26,515] {logging_mixin.py:109} INFO - [2024-06-30 07:38:26,515] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:38:26,525] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.395 seconds
+[2024-06-30 07:38:56,728] {processor.py:163} INFO - Started process (PID=61728) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:38:56,729] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:38:56,730] {logging_mixin.py:109} INFO - [2024-06-30 07:38:56,730] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:38:58,067] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:38:58,076] {logging_mixin.py:109} INFO - [2024-06-30 07:38:58,074] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:38:58,090] {logging_mixin.py:109} INFO - [2024-06-30 07:38:58,090] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:38:58,100] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.376 seconds
+[2024-06-30 07:39:28,311] {processor.py:163} INFO - Started process (PID=61759) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:39:28,312] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:39:28,313] {logging_mixin.py:109} INFO - [2024-06-30 07:39:28,312] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:39:29,682] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:39:29,690] {logging_mixin.py:109} INFO - [2024-06-30 07:39:29,689] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:39:29,705] {logging_mixin.py:109} INFO - [2024-06-30 07:39:29,704] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:39:29,712] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.404 seconds
+[2024-06-30 07:39:59,927] {processor.py:163} INFO - Started process (PID=61790) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:39:59,928] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:39:59,928] {logging_mixin.py:109} INFO - [2024-06-30 07:39:59,928] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:40:01,277] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:40:01,287] {logging_mixin.py:109} INFO - [2024-06-30 07:40:01,285] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:40:01,301] {logging_mixin.py:109} INFO - [2024-06-30 07:40:01,301] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:40:01,309] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.386 seconds
+[2024-06-30 07:40:31,543] {processor.py:163} INFO - Started process (PID=61821) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:40:31,545] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:40:31,545] {logging_mixin.py:109} INFO - [2024-06-30 07:40:31,545] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:40:32,911] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:40:32,919] {logging_mixin.py:109} INFO - [2024-06-30 07:40:32,918] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:40:32,933] {logging_mixin.py:109} INFO - [2024-06-30 07:40:32,933] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:40:32,941] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.400 seconds
+[2024-06-30 07:41:03,165] {processor.py:163} INFO - Started process (PID=61852) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:41:03,166] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:41:03,167] {logging_mixin.py:109} INFO - [2024-06-30 07:41:03,167] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:41:04,508] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:41:04,517] {logging_mixin.py:109} INFO - [2024-06-30 07:41:04,515] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:41:04,531] {logging_mixin.py:109} INFO - [2024-06-30 07:41:04,530] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:41:04,538] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.376 seconds
+[2024-06-30 07:41:34,769] {processor.py:163} INFO - Started process (PID=61883) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:41:34,771] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:41:34,771] {logging_mixin.py:109} INFO - [2024-06-30 07:41:34,771] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:41:36,108] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:41:36,117] {logging_mixin.py:109} INFO - [2024-06-30 07:41:36,115] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:41:36,131] {logging_mixin.py:109} INFO - [2024-06-30 07:41:36,131] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:41:36,139] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.372 seconds
+[2024-06-30 07:42:06,341] {processor.py:163} INFO - Started process (PID=61914) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:42:06,356] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:42:06,356] {logging_mixin.py:109} INFO - [2024-06-30 07:42:06,356] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:42:07,677] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:42:07,687] {logging_mixin.py:109} INFO - [2024-06-30 07:42:07,686] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:42:07,702] {logging_mixin.py:109} INFO - [2024-06-30 07:42:07,702] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:42:07,710] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.372 seconds
+[2024-06-30 07:42:37,907] {processor.py:163} INFO - Started process (PID=61945) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:42:37,908] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:42:37,908] {logging_mixin.py:109} INFO - [2024-06-30 07:42:37,908] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:42:39,257] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:42:39,268] {logging_mixin.py:109} INFO - [2024-06-30 07:42:39,267] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:42:39,286] {logging_mixin.py:109} INFO - [2024-06-30 07:42:39,286] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:42:39,299] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.395 seconds
+[2024-06-30 07:43:09,489] {processor.py:163} INFO - Started process (PID=61976) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:43:09,491] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:43:09,491] {logging_mixin.py:109} INFO - [2024-06-30 07:43:09,491] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:43:10,843] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:43:10,851] {logging_mixin.py:109} INFO - [2024-06-30 07:43:10,850] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:43:10,865] {logging_mixin.py:109} INFO - [2024-06-30 07:43:10,865] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:43:10,874] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.388 seconds
+[2024-06-30 07:43:41,079] {processor.py:163} INFO - Started process (PID=62007) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:43:41,080] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:43:41,081] {logging_mixin.py:109} INFO - [2024-06-30 07:43:41,081] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:43:42,368] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:43:42,376] {logging_mixin.py:109} INFO - [2024-06-30 07:43:42,375] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:43:42,390] {logging_mixin.py:109} INFO - [2024-06-30 07:43:42,390] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:43:42,398] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.322 seconds
+[2024-06-30 07:44:12,598] {processor.py:163} INFO - Started process (PID=62038) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:44:12,599] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:44:12,600] {logging_mixin.py:109} INFO - [2024-06-30 07:44:12,600] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:44:13,964] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:44:13,973] {logging_mixin.py:109} INFO - [2024-06-30 07:44:13,972] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:44:13,987] {logging_mixin.py:109} INFO - [2024-06-30 07:44:13,987] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:44:13,994] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.400 seconds
+[2024-06-30 07:44:44,217] {processor.py:163} INFO - Started process (PID=62069) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:44:44,219] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:44:44,219] {logging_mixin.py:109} INFO - [2024-06-30 07:44:44,219] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:44:45,710] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:44:45,718] {logging_mixin.py:109} INFO - [2024-06-30 07:44:45,717] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:44:45,732] {logging_mixin.py:109} INFO - [2024-06-30 07:44:45,732] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:44:45,741] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.527 seconds
+[2024-06-30 07:45:15,957] {processor.py:163} INFO - Started process (PID=62100) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:45:15,958] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:45:15,958] {logging_mixin.py:109} INFO - [2024-06-30 07:45:15,958] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:45:17,461] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:45:17,470] {logging_mixin.py:109} INFO - [2024-06-30 07:45:17,469] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:45:17,484] {logging_mixin.py:109} INFO - [2024-06-30 07:45:17,484] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:45:17,492] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.538 seconds
+[2024-06-30 07:45:47,686] {processor.py:163} INFO - Started process (PID=62131) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:45:47,698] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 07:45:47,699] {logging_mixin.py:109} INFO - [2024-06-30 07:45:47,699] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:45:48,976] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 07:45:48,985] {logging_mixin.py:109} INFO - [2024-06-30 07:45:48,984] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 07:45:48,998] {logging_mixin.py:109} INFO - [2024-06-30 07:45:48,998] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 07:45:49,007] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 1.324 seconds
+[2024-06-30 10:46:07,525] {processor.py:163} INFO - Started process (PID=62172) to work on /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 10:46:07,526] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_text_processing_2.py for tasks to queue
+[2024-06-30 10:46:07,546] {logging_mixin.py:109} INFO - [2024-06-30 10:46:07,545] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 10:46:12,964] {processor.py:654} INFO - DAG(s) dict_keys(['text_processing_dag_2']) retrieved from /opt/airflow/dags/dag_text_processing_2.py
+[2024-06-30 10:46:13,029] {logging_mixin.py:109} INFO - [2024-06-30 10:46:13,028] {dag.py:2398} INFO - Sync 1 DAGs
+[2024-06-30 10:46:13,119] {logging_mixin.py:109} INFO - [2024-06-30 10:46:13,119] {dag.py:2937} INFO - Setting next_dagrun for text_processing_dag_2 to None
+[2024-06-30 10:46:13,155] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_text_processing_2.py took 5.661 seconds

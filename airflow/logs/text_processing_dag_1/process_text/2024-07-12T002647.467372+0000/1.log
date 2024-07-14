@@ -1,0 +1,105 @@
+[2024-07-12 00:27:04,073] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text manual__2024-07-12T00:26:47.467372+00:00 [queued]>
+[2024-07-12 00:27:04,113] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text manual__2024-07-12T00:26:47.467372+00:00 [queued]>
+[2024-07-12 00:27:04,113] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-12 00:27:04,114] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-07-12 00:27:04,114] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-12 00:27:04,152] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-07-12 00:26:47.467372+00:00
+[2024-07-12 00:27:04,157] {standard_task_runner.py:52} INFO - Started process 4743 to run task
+[2024-07-12 00:27:04,187] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'manual__2024-07-12T00:26:47.467372+00:00', '--job-id', '3209', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpntm36my5', '--error-file', '/tmp/tmp7ts6_v0v']
+[2024-07-12 00:27:04,206] {standard_task_runner.py:77} INFO - Job 3209: Subtask process_text
+[2024-07-12 00:27:04,458] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text manual__2024-07-12T00:26:47.467372+00:00 [running]> on host cf249bbdc0d0
+[2024-07-12 00:27:04,809] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-07-12T00:26:47.467372+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-07-12T00:26:47.467372+00:00
+[2024-07-12 00:27:11,542] {logging_mixin.py:109} INFO - Index(['date', 'time', 'messages', 'video_links', 'video_durations'], dtype='object')
+[2024-07-12 00:28:37,236] {local_task_job.py:212} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-07-12 00:28:37,297] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 4743. PIDs of all processes in the group: [4743]
+[2024-07-12 00:28:37,297] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 4743
+[2024-07-12 00:28:37,301] {taskinstance.py:1413} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-07-12 00:28:37,390] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 123, in process_text
+    keywords = extract_keywords(i)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 106, in extract_keywords
+    doc = nlp(text)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/language.py", line 1047, in __call__
+    error_handler(name, proc, [doc], e)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 1724, in raise_error
+    raise e
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/language.py", line 1042, in __call__
+    doc = proc(doc, **component_cfg.get(name, {}))  # type: ignore[call-arg]
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/pipeline/attributeruler.py", line 146, in __call__
+    return error_handler(self.name, self, [doc], e)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 1724, in raise_error
+    raise e
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/pipeline/attributeruler.py", line 142, in __call__
+    matches = self.match(doc)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/pipeline/attributeruler.py", line 149, in match
+    matches = self.matcher(doc, allow_missing=True, as_spans=False)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1415, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-07-12 00:28:37,451] {taskinstance.py:1282} INFO - Marking task as FAILED. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240712T002647, start_date=20240712T002704, end_date=20240712T002837
+[2024-07-12 00:28:37,579] {standard_task_runner.py:92} ERROR - Failed to execute job 3209 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 123, in process_text
+    keywords = extract_keywords(i)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 106, in extract_keywords
+    doc = nlp(text)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/language.py", line 1047, in __call__
+    error_handler(name, proc, [doc], e)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 1724, in raise_error
+    raise e
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/language.py", line 1042, in __call__
+    doc = proc(doc, **component_cfg.get(name, {}))  # type: ignore[call-arg]
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/pipeline/attributeruler.py", line 146, in __call__
+    return error_handler(self.name, self, [doc], e)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/util.py", line 1724, in raise_error
+    raise e
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/pipeline/attributeruler.py", line 142, in __call__
+    matches = self.match(doc)
+  File "/home/airflow/.local/lib/python3.6/site-packages/spacy/pipeline/attributeruler.py", line 149, in match
+    matches = self.matcher(doc, allow_missing=True, as_spans=False)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1415, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-07-12 00:28:37,675] {process_utils.py:70} INFO - Process psutil.Process(pid=4743, status='terminated', exitcode=1, started='00:27:03') (4743) terminated with exit code 1

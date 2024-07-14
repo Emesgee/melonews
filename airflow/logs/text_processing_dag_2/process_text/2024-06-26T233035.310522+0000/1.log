@@ -1,0 +1,563 @@
+[2024-06-26 23:30:38,089] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_2.process_text manual__2024-06-26T23:30:35.310522+00:00 [queued]>
+[2024-06-26 23:30:38,102] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_2.process_text manual__2024-06-26T23:30:35.310522+00:00 [queued]>
+[2024-06-26 23:30:38,102] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-26 23:30:38,102] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2024-06-26 23:30:38,102] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-26 23:30:38,114] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-26 23:30:35.310522+00:00
+[2024-06-26 23:30:38,119] {standard_task_runner.py:52} INFO - Started process 4259 to run task
+[2024-06-26 23:30:38,124] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_2', 'process_text', 'manual__2024-06-26T23:30:35.310522+00:00', '--job-id', '3166', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_2.py', '--cfg-path', '/tmp/tmpuhg0uqas', '--error-file', '/tmp/tmp04ti60nk']
+[2024-06-26 23:30:38,127] {standard_task_runner.py:77} INFO - Job 3166: Subtask process_text
+[2024-06-26 23:30:38,202] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_2.process_text manual__2024-06-26T23:30:35.310522+00:00 [running]> on host cf249bbdc0d0
+[2024-06-26 23:30:38,267] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_2
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-26T23:30:35.310522+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-06-26T23:30:35.310522+00:00
+[2024-06-26 23:30:39,065] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,066] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,066] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,066] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,066] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,066] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,066] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,066] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,066] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,067] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,067] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,067] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,067] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,067] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,067] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,067] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,067] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,068] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,069] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,070] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,071] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,072] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,073] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,074] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,075] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,076] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,077] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,078] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,079] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,079] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,079] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,079] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,079] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,079] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,079] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,079] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,079] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,079] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,079] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,080] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,081] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,082] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,083] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,084] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,085] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,086] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,087] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,088] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,089] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,089] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,089] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,089] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,089] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,089] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,089] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,089] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,089] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,089] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,090] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,091] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,092] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,093] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,094] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,095] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,096] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,096] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,096] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,096] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,096] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,096] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,096] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,096] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,097] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,097] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,097] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,097] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,097] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,097] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,097] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,097] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,097] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,097] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: date
+[2024-06-26 23:30:39,098] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: time
+[2024-06-26 23:30:39,098] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: messages
+[2024-06-26 23:30:39,098] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_links
+[2024-06-26 23:30:39,098] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: video_durations
+[2024-06-26 23:30:39,098] {logging_mixin.py:109} INFO - Warning: Non-dictionary element found and skipped: cleaned_text_entities
+[2024-06-26 23:30:39,107] {logging_mixin.py:109} INFO - Empty DataFrame
+Columns: []
+Index: []
+[2024-06-26 23:30:39,108] {logging_mixin.py:109} INFO - Empty DataFrame
+Columns: []
+Index: []
+[2024-06-26 23:30:39,109] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'messages'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 57, in process_text
+    df = df[df['messages'].str.contains('', case=False, na=False)]
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'messages'
+[2024-06-26 23:30:39,130] {taskinstance.py:1282} INFO - Marking task as UP_FOR_RETRY. dag_id=text_processing_dag_2, task_id=process_text, execution_date=20240626T233035, start_date=20240626T233038, end_date=20240626T233039
+[2024-06-26 23:30:39,145] {standard_task_runner.py:92} ERROR - Failed to execute job 3166 for task process_text
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'messages'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/../scripts/text_processing.py", line 57, in process_text
+    df = df[df['messages'].str.contains('', case=False, na=False)]
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'messages'
+[2024-06-26 23:30:39,183] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-06-26 23:30:39,287] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

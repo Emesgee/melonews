@@ -1,0 +1,28 @@
+[2024-07-12 00:26:51,500] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text manual__2024-06-25T05:11:01.362353+00:00 [queued]>
+[2024-07-12 00:26:51,599] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: text_processing_dag_1.process_text manual__2024-06-25T05:11:01.362353+00:00 [queued]>
+[2024-07-12 00:26:51,600] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-12 00:26:51,601] {taskinstance.py:1244} INFO - Starting attempt 2 of 3
+[2024-07-12 00:26:51,601] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-12 00:26:51,675] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): process_text> on 2024-06-25 05:11:01.362353+00:00
+[2024-07-12 00:26:51,710] {standard_task_runner.py:52} INFO - Started process 4688 to run task
+[2024-07-12 00:26:51,774] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'text_processing_dag_1', 'process_text', 'manual__2024-06-25T05:11:01.362353+00:00', '--job-id', '3189', '--raw', '--subdir', 'DAGS_FOLDER/dag_text_processing_1.py', '--cfg-path', '/tmp/tmpz53tqr6a', '--error-file', '/tmp/tmpq1lhj_qk']
+[2024-07-12 00:26:51,825] {standard_task_runner.py:77} INFO - Job 3189: Subtask process_text
+[2024-07-12 00:26:52,211] {logging_mixin.py:109} INFO - Running <TaskInstance: text_processing_dag_1.process_text manual__2024-06-25T05:11:01.362353+00:00 [running]> on host cf249bbdc0d0
+[2024-07-12 00:26:52,435] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=text_processing_dag_1
+AIRFLOW_CTX_TASK_ID=process_text
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-25T05:11:01.362353+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-06-25T05:11:01.362353+00:00
+[2024-07-12 00:26:59,282] {logging_mixin.py:109} INFO - Index(['date', 'time', 'messages', 'video_links', 'video_durations'], dtype='object')
+[2024-07-12 00:28:22,604] {logging_mixin.py:109} INFO - Error: ZERO_RESULTS for city: شهيد
+[2024-07-12 00:28:23,246] {logging_mixin.py:109} INFO - Error: ZERO_RESULTS for city: mosque
+[2024-07-12 00:28:31,939] {logging_mixin.py:109} INFO - Error: ZERO_RESULTS for city: الأهالي
+[2024-07-12 00:28:37,181] {logging_mixin.py:109} INFO - Error: ZERO_RESULTS for city: Maythaloun
+[2024-07-12 00:28:38,033] {logging_mixin.py:109} INFO - Processed data saved to /opt/airflow/data/processed_data_1.json
+[2024-07-12 00:28:38,039] {python.py:175} INFO - Done. Returned value was: None
+[2024-07-12 00:28:38,130] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=text_processing_dag_1, task_id=process_text, execution_date=20240625T051101, start_date=20240712T002651, end_date=20240712T002838
+[2024-07-12 00:28:38,446] {local_task_job.py:154} INFO - Task exited with return code 0
+[2024-07-12 00:28:38,631] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
