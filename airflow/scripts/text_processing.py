@@ -125,7 +125,7 @@ def process_text(input_path, output_path):
 
     df['city_result'] = cityKeys
 
-    api_key = "AIzaSyBbhiSukoQi6jLozUSGjpt-8wEqf2f2_0k"
+    api_key = "Use your own api"
     latitudes = []
     longitudes = []
 
