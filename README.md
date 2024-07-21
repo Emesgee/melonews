@@ -1,5 +1,5 @@
 # melonews
-democrating news media 
+Democratizing  news media 
 
 
 
