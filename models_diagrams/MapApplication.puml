@@ -1,0 +1,21 @@
+@startuml
+    Actor User
+    participant MapApplication
+    participant DataService
+    participant GeocodingService
+
+    User->MapApplication: Enter country, category, and date
+    activate MapApplication
+        MapApplication->GeocodingService: Geocode country
+        activate GeocodingService
+            GeocodingService->GeocodingService: Process geocoding request
+            GeocodingService->MapApplication: Return coordinates
+        deactivate GeocodingService
+        MapApplication->DataService: Request data with coordinates, category, and date
+        activate DataService
+            DataService->DataService: Filter data
+            DataService->MapApplication: Return filtered data
+        deactivate DataService
+        MapApplication->MapApplication: Display filtered data on map
+    deactivate MapApplication
+@enduml
