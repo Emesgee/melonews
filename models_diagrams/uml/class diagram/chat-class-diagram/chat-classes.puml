@@ -1,0 +1,28 @@
+@startuml
+
+package Chat-classes {
+
+
+class CreateChatroom {
+    + createChatroom(name: String): Chat
+}
+
+class LeaveChatroom {
+    + leaveChatroom(user: User, chatroom: Chat)
+}
+
+class JoinChatroom {
+    + joinChatroom(user: User, chatroom: Chat)
+}
+
+class SendMessage {
+    + sendMessage(user: User, chatroom: Chat, message: String)
+}
+
+class Chatbot {
+    + processMessage(message: String): String
+}
+}
+
+
+@enduml

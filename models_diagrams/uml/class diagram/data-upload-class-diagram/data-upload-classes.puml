@@ -1,0 +1,41 @@
+@startuml
+package Data-Upload{
+class Image {
+    - id : int
+    - name : String
+    - path : String
+    - type : String
+    - size : int
+}
+class Video {
+    - id : int
+    - name : String
+    - path : String
+    - type : String
+    - size : int
+}
+class Text {
+    - id : int
+    - content : String
+    
+}
+
+class User {
+    - id : int
+    - username : String
+}
+
+class Geodata {
+    - id : int
+    - Latitude : int
+    - longitude : int
+}
+class DateTime {
+    - id : int
+    - uploadDate : Date
+}
+}
+
+
+
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+skinparam packageStyle rectangle
+Package Chat_Class {
+    package Chat{
+    }
+    package Create_Chatroom {
+    }
+     package Leave_Chatroom {
+    }
+     package Join_Chatroom {
+    }
+     package Send_Message {
+    }
+     package Chatbot {
+    }
+}
+
+Chat --> Create_Chatroom
+Chat --> Leave_Chatroom
+Chat --> Join_Chatroom
+Chat --> Send_Message
+Chat --> Chatbot
+@enduml

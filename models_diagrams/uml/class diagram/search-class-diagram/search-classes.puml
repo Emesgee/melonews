@@ -1,0 +1,32 @@
+@startuml
+package Search-classes {
+    class Image {
+  - input : (img_file);
+  + output : ();
+}
+class Video {
+  - input : (video_file);
+  + output : ();
+}
+class Topic {
+  - input : (string);
+  + output : ();
+}
+class Category {
+  - input : (list_string);
+  + output : ();
+}
+class Language {
+  - input : (list);
+  + output : ();
+}
+class Date {
+  - input : (date,time);
+  + output : ();
+}
+class Map {
+  - input : (list_map);
+  + output : ();
+}
+}
+@enduml

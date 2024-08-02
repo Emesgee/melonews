@@ -1,0 +1,32 @@
+@startuml
+skinparam packageStyle rectangle
+Package Search_Class__by/type {
+    package Search{
+    }
+    package Image {
+    }
+     package Video {
+    }
+     package Category {
+    }
+     package DateTime {
+    }
+     package Map {
+    }
+     package Language {
+    }
+     package Topic {
+    }
+     package Location {
+    }
+}
+
+Search --> Image
+Search --> Video
+Search --> Category
+Search --> DateTime
+Search --> Map
+Search --> Language
+Search --> Topic
+Search --> Location
+@enduml

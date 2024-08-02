@@ -1,0 +1,23 @@
+@startuml
+skinparam packageStyle rectangle
+Package Upload_Class {
+    package Upload{
+    }
+    package Image {
+    }
+     package Video {
+    }
+     package Text {
+    }
+     package DateTime {
+    }
+     package Location {
+    }
+}
+
+Upload --> Image
+Upload --> Video
+Upload --> DateTime
+Upload --> Text
+Upload --> Location
+@enduml
