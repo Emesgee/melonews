@@ -1,0 +1,21 @@
+@startuml
+title Data Upload
+
+Actor User 
+participant App
+database DBApiServer
+
+activate App #FFBBBB
+
+App -> DBApiServer: Upload(Data)
+activate App #DarkSalmon
+activate DBApiServer #FFBBBB
+DBApiServer -> App: Data Uploaded 
+deactivate DBApiServer
+deactivate App
+
+
+
+
+
+@enduml
