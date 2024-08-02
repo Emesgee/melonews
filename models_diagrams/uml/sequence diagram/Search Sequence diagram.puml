@@ -1,0 +1,29 @@
+@startuml
+title Search Sequence diagram
+
+Actor User 
+
+activate Search #FFBBBB
+
+User -> Search: search(img)
+Search -> Search: validate search 
+activate Search #DarkSalmon
+deactivate Search
+
+alt valid
+  Search -> DB
+  activate DB #FFBBBB
+  DB -> ResultList
+  deactivate DB #FFBBBB
+  activate ResultList #FFBBBB
+  ResultList -> Search
+  deactivate ResultList #FFBBBB
+else else 
+  Search -> Search: Display Error
+end
+deactivate Search #FFBBBB
+
+
+database DB
+participant ResultList
+@enduml
